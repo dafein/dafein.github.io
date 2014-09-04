@@ -1,0 +1,53 @@
+/*inner content area*/
+.inner{
+	width: 960px; margin: 0 auto; background: white; height: inherit; position:relative;
+}
+
+
+/*nav section*/
+#mainHeader{
+	height: 60px; background:green;
+}
+#logo {
+	height:60px; width: 100px; background:gray; position:absolute; top:0; left:0;
+}
+#mainNav{
+	height:60px; width: 400px; background:purple; position:absolute; top:0; right:0;
+	
+}
+
+/*search section*/
+#search{
+height:60px; background:orange;	
+}
+.hero-col{
+	float:right;
+}
+#hero{
+	height:460px; background:red;
+}
+#hero-01{
+	height:100px;
+	width:75%; 
+	background:brown;
+}
+#hero-02{
+	height:100px;
+	width:25%; 
+	background:pink;
+}
+#hero-03{
+	height:100px;
+	width:25%; 
+	background:blue;
+}
+
+#siteInfo{
+	height:260px; background:purple;
+}
+
+#mainFooter{
+	height:200px; background:blue;
+}
+
+
