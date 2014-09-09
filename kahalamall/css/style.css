@@ -1,18 +1,30 @@
+ol {
+	list-style-type:decimal;
+	list-style-position:inside;
+}
+
+
 /*inner content area*/
+
 .inner{
 	width: 960px; margin: 0 auto; background: white; height: inherit; position:relative;
+}
+.inner:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 
 /*nav section*/
 #mainHeader{
-	height: 60px; background:green;
+	height: 60px; background:#0BA890;
 }
 #logo {
-	height:60px; width: 100px; background:gray; position:absolute; top:0; left:0;
+	height:60px; width: 100px; background:gray; float:left;
 }
 #mainNav{
-	height:60px; width: 400px; background:purple; position:absolute; top:0; right:0;
+	height:60px; width: 400px; background:purple; float:right;
 	
 }
 
@@ -20,30 +32,57 @@
 #search{
 height:60px; background:orange;	
 }
-.hero-col{
-	float:right;
-}
+
 #hero{
-	height:460px; background:red;
+	height:460px; background:#FFFFFF; 
 }
 #hero-01{
-	height:100px;
-	width:75%; 
+	height:460px;
+	width:74%; 
 	background:brown;
+	float:left;
 }
 #hero-02{
-	height:100px;
-	width:25%; 
-	background:pink;
+	height:230px; 
+	width:24%;  
+	background:pink; 
+	float:right;
 }
 #hero-03{
-	height:100px;
-	width:25%; 
+	height:230px;
+	width:24%; 
 	background:blue;
+	float:right;
 }
+
+
+
 
 #siteInfo{
 	height:260px; background:purple;
+}
+
+#events{
+	background:#333;
+	height:inherit;
+	width:24%;
+	float:left;
+	margin:0 2% 0 0;
+}
+
+#social{
+	background:#666;
+	height:inherit;
+	width:24%;
+	float:left;
+	
+}
+
+#ad{
+	background:#999;
+	height:inherit;
+	width:48%;
+	float:right;
 }
 
 #mainFooter{
