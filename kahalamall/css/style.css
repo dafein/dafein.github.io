@@ -1,5 +1,10 @@
+
 ol {
 	list-style-type:decimal;
+	
+}
+ul,
+ol {
 	list-style-position:inside;
 }
 
@@ -7,7 +12,7 @@ ol {
 /*inner content area*/
 
 .inner{
-	width: 960px; margin: 0 auto; background: white; height: inherit; position:relative;
+	width: 960px; margin: 0 auto;  height: inherit; position:relative;
 }
 .inner:after {
 	content: "";
@@ -18,75 +23,102 @@ ol {
 
 /*nav section*/
 #mainHeader{
-	height: 60px; background:#0BA890;
+	height: 60px; background:#35a488;
 }
 #logo {
-	height:60px; width: 100px; background:gray; float:left;
+	height:60px;  float:left;
 }
 #mainNav{
-	height:60px; width: 400px; background:purple; float:right;
+	height:60px;  background:white; float:right;
 	
 }
 
+#mainNav ul li{
+	float:left;
+}
 /*search section*/
 #search{
-height:60px; background:orange;	
+height:60px; background:#b5e1d7;	
+}
+#searchBox{
+	float:right;
+	background:white;
+	width:300px;
+	height:40px;
+	margin:10px;
+}
+#mallHours{
+	float:left;
 }
 
+/*hero section*/
 #hero{
-	height:460px; background:#FFFFFF; 
+	height:460px; 
+	margin:0 0 20px 0;
 }
+
 #hero-01{
 	height:460px;
 	width:74%; 
-	background:brown;
+	background:#bbb;
 	float:left;
 }
+
 #hero-02{
-	height:230px; 
+	height:300px; 
 	width:24%;  
-	background:pink; 
+	background:#bbb; 
 	float:right;
 }
+
 #hero-03{
-	height:230px;
+	height:140px;
 	width:24%; 
-	background:blue;
+	background:#bbb;
 	float:right;
+	margin-top:20px;
 }
 
 
 
-
+/*site info section*/
 #siteInfo{
-	height:260px; background:purple;
+	height:260px; 
+}
+.border-top{
+	border-top: 2px solid #222;
 }
 
 #events{
-	background:#333;
+	background:white;
 	height:inherit;
 	width:24%;
 	float:left;
 	margin:0 2% 0 0;
+	
 }
 
 #social{
-	background:#666;
+	background:white;
 	height:inherit;
 	width:24%;
 	float:left;
 	
+	
 }
 
 #ad{
-	background:#999;
+	background:white;
 	height:inherit;
 	width:48%;
 	float:right;
-}
 
+	
+}
+/* footer section*/
 #mainFooter{
-	height:200px; background:blue;
+	height:200px; background:#b5e1d7;
+	margin:3px 0 0 0;
 }
 
 
