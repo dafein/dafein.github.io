@@ -1,0 +1,307 @@
+/* CSS TABLE OF CONTENTS
+=====================================
+	#BASE CSS
+	#SITE-SPECIFIC CSS
+===================================== */ 
+
+
+/* 
+===================================== 
+========== BEGIN BASE CSS ===========
+=====================================
+*/
+
+/* BASE CSS (Initital Base Setup)
+Description: "Base" css is an initial set of core
+styles that can be used (and reused) as a start 
+for most sites. It should be placed at the top so
+it can be over-written by site-specific styling
+below. 
+=====================================
+	#RESET
+	#HTML5
+	#BASE TYPOGRAPHY
+		#BODY
+		#HEADINGS
+		#PARAGRAPHS
+		#LINKS
+		#LISTS
+	#IMAGES
+	#CLEARFIX
+===================================== */
+
+
+/* #RESET
+================================================== */  
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* #HTML5
+================================================== */
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+/* #BASE TYPOGRAPHY
+================================================== */
+
+/* #BODY */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%; /* 1em = 16px */
+	line-height: 1.5em; /* 16px x 1.5em = 24px */
+	color: #333;
+}
+
+/* #HEADINGS 
+Based on a Traditional Typographic Scale: 
+48, 36, 24, 21, 18, 16
+================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .5em;
+}
+
+h1 {
+	font-size: 3em; /* 48px / 16px = 3em */
+	line-height: 1em; 
+}
+
+h2 {
+	font-size: 2.25em; /* 36px / 16px = 2.25em */
+	line-height: 1.1em;
+}
+
+h3 {
+	font-size: 1.5em; /* 24px / 16px = 1.5em */
+	line-height: 1.2em;
+}
+
+h4 {
+	font-size: 1.3125em; /* 21px / 16px = 1.3125em */
+	line-height: 1.3em;
+}
+
+h5 {
+	font-size: 1.125em; /* 18px / 16px = 1.125em */
+	line-height: 1.4em;
+}
+
+h6 {
+	font-size: 1em; /* 16px / 16px = 1em */
+	line-height: 1.5em;
+}
+
+/* #Paragraphs 
+================================================== */
+p { 
+	margin-bottom: .5em; 
+}
+
+
+/* #Links
+================================================== */
+a { color: blue; text-decoration: none; }
+a:visited, a:hover { 
+    background:blue;
+    text-decoration:none;
+    color:#000000;
+    -webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;}
+
+/* #Lists
+================================================== */
+ul, ol {
+	margin-bottom: .5em;
+}
+
+ul li ul, ul li ol, ol li ul, ol li ol {
+	margin: 0; 
+}
+
+li {
+	margin-left: 1.875em;
+}
+
+
+/* #Images
+================================================== */
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto; 
+}
+
+a img {
+	border: none;
+}
+
+
+/* #CLEARFIX
+================================================== */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 
+===================================== 
+=========== END BASE CSS ============  
+===================================== 
+*/
+
+
+/* 
+===================================== 
+===== BEGIN SITE- SPECIFIC CSS ======
+===================================== 
+*/
+   
+/* SITE-SPECIFIC CSS (Site-Specific Design)
+Description: "Site-specific" css is where all
+site-specific visual design styles. Site-specific
+css should be placed on the bottom to 
+override any base styling above it. 
+=====================================
+	#SITE-SPECIFIC BASE STYLING
+	#SITE-SPECIFIC TYPOGRAPHY
+	#LAYOUT/GRID
+	#SECTIONS
+	#MEDIA QUERIES
+	#@FONT-FACE
+===================================== */
+
+/* SITE-SPECIFIC BASE STYLING
+Description: Adjust general base settings above with 
+site-specific styles here. 
+(e.g. body background color)
+===================================== */
+
+body {
+	background: red
+;
+}
+
+/* SITE-SPECIFIC TYPOGRAPHY
+Description: Adjust the base typography settings above 
+with site-specific styles here. 
+(e.g. headings, paragraphs, colors, etc.)
+===================================== */
+
+
+
+/* LAYOUT/GRID
+Description: Place grid and visual layout styling here. 
+(e.g. containers, rows, columns)
+===================================== */
+.container {
+	/* Fixed width: 960px */
+    width: 60em; /* 960px / 16px (base) = 60em - (5em padding x 2) = 50em */
+	margin: 2em auto;
+	padding: 0;
+	background: #fff;
+}
+.row {
+	margin:1em 0;
+}
+.column {
+	float:left;
+	margin:0 2%;
+	
+	
+}
+.one-half.column {width:46%;}
+.one-third.column {width:29.3333%;}
+/* SECTIONS
+
+}
+Description: Style major site sections here. 
+(e.g. header, navs/navigation, site-specific content sections, 
+asides, sidebars, footer, sub page-specific styling, etc.)
+===================================== */
+
+header{
+	padding:3em 1em 1em 1em;
+}
+header .logo{
+	display:block;
+	margin:0 auto;
+}
+
+#mainNav ul{
+	text-align: center;
+}
+
+#mainNav ul li {
+	display:inline-block;
+	margin:0;
+}
+#mainNav ul li a {
+	display:block;
+	padding:1em 2em;
+	text-decoration:none;
+}
+#mainNav ul li a:hover{
+	background:#ccc;
+}
+/* MEDIA QUERIES
+Description: Define screen-size breakpoints here.
+(e.g. Desktop, Tablet, Mobile)
+===================================== */
+
+/* Tablet (Between 768px - 992px)*/
+@media all and (min-width: 48em) and (max-width: 62em) {
+	
+	body {
+		font-size: 93.75%; /* 15px */
+	}
+	
+	.container {
+		width: 80%;
+		margin: 4%;
+		padding: 6%;
+	}
+	
+}
+
+/* MOBILE (Smaller than 768px)*/
+@media all and (max-width: 47.9999em) {
+	
+	body {
+		font-size: 87.5%; background:red;/* 14px */
+	}
+	
+	.container {
+		width: 84%;
+		margin: 3%;
+		padding: 5%;
+	}
+	.column{
+		float:none;
+		margin:0;
+	}
+	.one-half.column, .one-third.column{
+		width:100%;
+	}
+
+}
+
+/* @FONT-FACE (Webfonts)
+===================================== */
+
+
+/* 
+===================================== 
+====== END SITE- SPECIFIC CSS =======
+===================================== 
+*/
+
+
+
+
+
