@@ -1,12 +1,25 @@
 
+body {
+	font-family:arial, sans-serif;
+}
+img {
+  	vertical-align: top;
+}
+h2 {
+	text-transform:uppercase;
+	font-size:16px;
+	font-family:times, serif;
+	margin-bottom:20px;
+}
 ol {
 	list-style-type:decimal;
 	
 }
-ul,
-ol {
-	list-style-position:inside;
+
+a{
+  	text-decoration: none;
 }
+
 
 
 /*inner content area*/
@@ -21,60 +34,74 @@ ol {
 }
 
 
+
+
 /*nav section*/
 #mainHeader{
 	height: 60px; background:#35a488;
 }
 #logo {
-	height:60px;  float:left;
+	height:60px;  float:left; padding-top:15px; position:absolute;
 }
 #mainNav{
-	height:60px;  background:white; float:right;
+	height:60px;  float:right;
 	
 }
 
 #mainNav ul li{
 	float:left;
 }
+
+
+#mainNav a{
+  	font-family:times, serif;
+	color: #fff;
+	padding:22px 14px;
+	display:block;
+	text-transform:uppercase;
+}
+#mainNav li:hover{
+	background:#387b6a;
+}
+
+
+
 /*search section*/
+
 #search{
 height:60px; background:#b5e1d7;	
 }
+
 #searchBox{
 	float:right;
 	background:white;
-	width:300px;
-	height:40px;
-	margin:10px;
+
 }
 #mallHours{
-	float:left;
+	
+  float: left;
+
+	
 }
 
 /*hero section*/
 #hero{
-	height:460px; 
+	
 	margin:0 0 20px 0;
 }
 
 #hero-01{
-	height:460px;
-	width:74%; 
-	background:#bbb;
+	
 	float:left;
 }
 
 #hero-02{
-	height:300px; 
-	width:24%;  
-	background:#bbb; 
+	
 	float:right;
 }
 
 #hero-03{
-	height:140px;
-	width:24%; 
-	background:#bbb;
+	
 	float:right;
 	margin-top:20px;
 }
@@ -83,24 +110,28 @@ height:60px; background:#b5e1d7;
 
 /*site info section*/
 #siteInfo{
-	height:260px; 
+	
 }
 .border-top{
 	border-top: 2px solid #222;
+	padding-top:20px;
 }
 
 #events{
-	background:white;
-	height:inherit;
+	
+	
 	width:24%;
 	float:left;
 	margin:0 2% 0 0;
 	
 }
+#events li{
+	  color: #0000ee;
+}
 
 #social{
-	background:white;
-	height:inherit;
+	
+	
 	width:24%;
 	float:left;
 	
@@ -108,12 +139,14 @@ height:60px; background:#b5e1d7;
 }
 
 #ad{
-	background:white;
-	height:inherit;
+	
 	width:48%;
 	float:right;
 
 	
+}
+#ad img{
+	float:left;
 }
 /* footer section*/
 #mainFooter{
