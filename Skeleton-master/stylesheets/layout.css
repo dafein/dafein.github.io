@@ -21,20 +21,40 @@
  -webkit-box-sizing: border-box;
          box-sizing: border-box;
 }
-.section{
-	height:200px;
-	background:#aaa;
-}
 
-#headerLogos 	{ background: white;}
+
+.section        {background:#eee; height:200px;}
+
+/* Header*/
+#header-main    {background:white; min-height:48px;}
+
+
+/*nav*/
+#nav-main       {background:#103075}
 #nav-left		{ background: blue;}
 #nav-right		{ background: blue;}
-#slideshowImg	{ background: aqua;}
 
-#twoLeft 	{ height: inherit; background: white;}
-#twoRight 	{ height: inherit; background: white;}
+/*slideshow*/
+#slideshow            {background:#01bcf3}
+#slideshow-imgmg	  { background: aqua;}
 
-#four-col .four { background: #fff; height: 50px;}
+/*two column*/
+#twoLeft 	      { height: inherit; background: white;}
+#twoRight 	      { height: inherit; background: white;}
+
+/*four column*/
+#four-col .four    { background: #fff;}
+
+
+/*breadcrumb*/
+#breadcrumb        {background:white;}
+#breadcrumb ol     {list-style-type: none;  margin:0;}
+
+/*footer*/
+footer-main        {border-top:1px; background:white;}
+#footer-main li    {float:left;}
+
+#footer-main a     {padding:10px 15px; background: red; display:block;}
 /* #Page Styles
 ================================================== */
 
