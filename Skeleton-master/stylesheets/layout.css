@@ -31,12 +31,11 @@
 
 /*nav*/
 #nav-main       {background:#103075}
-#nav-left		{ background: blue;}
-#nav-right		{ background: blue;}
+
+#nav-left li    {float:left; color:#D2EAD9;}
 
 /*slideshow*/
 #slideshow            {background:#01bcf3}
-#slideshow-imgmg	  { background: aqua;}
 
 /*two column*/
 #twoLeft 	      { height: inherit; background: white;}
@@ -51,10 +50,10 @@
 #breadcrumb ol     {list-style-type: none;  margin:0;}
 
 /*footer*/
-footer-main        {border-top:1px; background:white;}
-#footer-main li    {float:left;}
+#footer-main        {border-top:1px solid #D0CCCC; background:white;}
+#footer-main li    {float:left; color:#BE20DA;}
 
-#footer-main a     {padding:10px 15px; background: red; display:block;}
+#footer-main a     {padding:10px 12px;  display:block;}
 /* #Page Styles
 ================================================== */
 
