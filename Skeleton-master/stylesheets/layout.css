@@ -92,9 +92,14 @@ h4 {
 	background: #fff;
 	color: #103075;
 }
+#catalog {
+	padding-top:15px;
+	border-bottom:thin #B0AAAA solid;
+}
 
 /*slideshow*/
 #slideshow            {background:#01bcf3}
+#slideshow-mobile  {background:#D0CFCF;}
 
 /*two column*/
 #two-left 	      { height: inherit; background: white;}
@@ -113,10 +118,39 @@ h4 {
 #four-col h2 {padding: 0 10px;}
 
 /*breadcrumb*/
-#breadcrumb        {background:white;}
-#breadcrumb ol     {list-style-type: none;  margin:0;}
+#breadcrumb        {background:white; height:60px;}
+#breadcrumb ol{
+	margin:0;
+	padding-top:15px;
+}
+
+#breadcrumb ol li {
+	list-style-type:none;
+	margin:0;
+	color:#1A4AA7;
+	display: block;
+	float: left;
+	font-weight: bold;
+	padding: 0 10px;
+}
+#breadcrumb a {
+	
+	margin:0;
+	text-decoration:none;
+	list-style-type:none;
+	color:#1A4AA7;
+	display: block;
+	float: left;
+	font-weight: bold;
+	padding: 0 10px;
+}
 
 /*footer*/
+#footer-main {
+	background:white;
+	border-top:thin #CECBCB solid;
+	height:90px;
+}
 #footer-main li {
 	float: left;
 	
@@ -124,26 +158,25 @@ h4 {
 
 
 
-#footer-main li a.microsoft-logo img {
-	height: 30px;
-	width: auto;
-	margin: 0;
-}
 
-#footer-main li a.american-flag img {
-	width: 20px;
-	height: 20px; 
-}
+
+
 
 #footer-main a {
 	padding: 10px 15px;
 	display: block;
 	text-decoration: none;
 	font-size: 11px;
+
 }
 
 #footer-main a:hover {
 	color: #13AEEB;
+}
+
+#footer-main p {
+	color:#CDCACA;
+	font-size: 10px;
 }
 /* SUBPAGE STYLES */
 
@@ -172,12 +205,9 @@ h4 {
 	color: #13AEEB;
 }
 
-#breadcrumb ol li {
-	display: block;
-	float: left;
-	font-weight: bold;
-	padding: 0 10px;
-}
+
+
+
 
 /* #Page Styles
 ================================================== */
