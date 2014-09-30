@@ -145,7 +145,39 @@ h4 {
 #footer-main a:hover {
 	color: #13AEEB;
 }
+/* SUBPAGE STYLES */
 
+#sub-nav {
+	background: #fff;
+}
+
+#sub-nav ul {
+	
+}
+
+#sub-nav ul li {
+	float: left;
+	
+}
+
+#sub-nav ul li a {
+	color: #103075;
+	text-decoration: none;
+	padding: 14px 10px 5px 10px;
+	margin: 0;
+	display: block;
+}
+
+#sub-nav ul li a:hover {
+	color: #13AEEB;
+}
+
+#breadcrumb ol li {
+	display: block;
+	float: left;
+	font-weight: bold;
+	padding: 0 10px;
+}
 
 /* #Page Styles
 ================================================== */
