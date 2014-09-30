@@ -102,9 +102,9 @@ h4 {
 #slideshow-mobile  {background:#D0CFCF;}
 
 /*two column*/
-#two-left 	      { height: inherit; background: white;}
-#two-right 	      { height: inherit; background: white;}
-#two-col          {margin: 20px 0 20px 0;}
+.two-left 	      { height: inherit; background: white;}
+.two-right 	      { height: inherit; background: white;}
+#two-col          {padding: 20px 20px 20px 20px;}
 #two-col h4{
 	padding: 10px 10px 0 10px;
 }
