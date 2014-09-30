@@ -22,6 +22,27 @@
          box-sizing: border-box;
 }
 
+body {
+	background: #eee;
+}
+
+
+
+h2 {
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #103075;
+	margin: 0 0 20px 0;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	color: #103075;
+}
 
 .section        {background:#eee; }
 
@@ -29,31 +50,103 @@
 #header-main    {background:white; min-height:48px;}
 
 
-/*nav*/
-#nav-main       {background:#103075}
+#logoleft {
+	display: block;
+	float: left;
+	border-right: 1px solid #eee;
+	height: 100%;
+	padding: 13px 15px 13px 0;
+}
 
-#nav-left li    {float:left; color:#D2EAD9;}
+#logoright {
+	display: block;
+	float: left;
+	height: 100%;
+	padding: 13px 0 13px 15px;
+}
+.menulogo { height:15px}
+
+
+
+/*nav*/
+#nav-main {
+	background: #103075;
+	color: #fff;
+	min-height: 48px;
+}
+#nav-left ul li {
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+#nav-left ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	font-weight: bold;
+}
+
+#nav-left ul li a:hover {
+	background: #fff;
+	color: #103075;
+}
 
 /*slideshow*/
 #slideshow            {background:#01bcf3}
 
 /*two column*/
-#twoLeft 	      { height: inherit; background: white;}
-#twoRight 	      { height: inherit; background: white;}
+#two-left 	      { height: inherit; background: white;}
+#two-right 	      { height: inherit; background: white;}
+#two-col          {margin: 20px 0 20px 0;}
+#two-col h4{
+	padding: 10px 10px 0 10px;
+}
+
+#two-col h2
+ {padding: 0 10px;}
 
 /*four column*/
 #four-col .four    { background: #fff;}
-
+#four-col h4 {padding: 10px 10px 0 10px;}
+#four-col h2 {padding: 0 10px;}
 
 /*breadcrumb*/
 #breadcrumb        {background:white;}
 #breadcrumb ol     {list-style-type: none;  margin:0;}
 
 /*footer*/
-#footer-main        {border-top:1px solid #D0CCCC; background:white;}
-#footer-main li    {float:left; color:#BE20DA;}
+#footer-main li {
+	float: left;
+	
+}
 
-#footer-main a     {padding:10px 12px;  display:block;}
+
+
+#footer-main li a.microsoft-logo img {
+	height: 30px;
+	width: auto;
+	margin: 0;
+}
+
+#footer-main li a.american-flag img {
+	width: 20px;
+	height: 20px; 
+}
+
+#footer-main a {
+	padding: 10px 15px;
+	display: block;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+#footer-main a:hover {
+	color: #13AEEB;
+}
+
+
 /* #Page Styles
 ================================================== */
 
