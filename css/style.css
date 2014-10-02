@@ -183,7 +183,7 @@ site-specific styles here.
 ===================================== */
 
 body {
-	background: red
+	background: #1A3174
 ;
 }
 
@@ -273,7 +273,7 @@ Description: Define screen-size breakpoints here.
 @media all and (max-width: 47.9999em) {
 	
 	body {
-		font-size: 87.5%; background:red;/* 14px */
+		font-size: 87.5%; background:#459CC9;/* 14px */
 	}
 	
 	.container {
