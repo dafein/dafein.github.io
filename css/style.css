@@ -201,7 +201,7 @@ Description: Place grid and visual layout styling here.
 ===================================== */
 .container {
 	/* Fixed width: 960px */
-    width: 60em; /* 960px / 16px (base) = 60em - (5em padding x 2) = 50em */
+   /* 960px / 16px (base) = 60em - (5em padding x 2) = 50em */
 	margin: 2em auto;
 	padding: 0;
 	background: #fff;
