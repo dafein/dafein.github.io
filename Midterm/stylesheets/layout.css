@@ -47,30 +47,22 @@ h4 {
 .section        {background:#eee; }
 
 /* Header*/
-#header-main    {background:white; min-height:48px;}
+#header-main    {background:white; min-height:100px;}
 
 
 #logoleft {
 	display: block;
 	float: left;
-	border-right: 1px solid #eee;
-	height: 100%;
-	padding: 13px 15px 13px 0;
 }
 
-#logoright {
-	display: block;
-	float: left;
-	height: 100%;
-	padding: 13px 0 13px 15px;
-}
-.menulogo { height:15px}
+
+.menulogo { height:100px;}
 
 
 
 /*nav*/
 #nav-main {
-	background: #103075;
+	background: #FFFFFF;
 	color: #fff;
 	min-height: 48px;
 }
@@ -81,7 +73,7 @@ h4 {
 }
 
 #nav-left ul li a {
-	color: #fff;
+	color: #000000;
 	text-decoration: none;
 	display: block;
 	padding: 15px;
@@ -95,27 +87,32 @@ h4 {
 #catalog {
 	padding-top:15px;
 	border-bottom:thin #B0AAAA solid;
-}
+	}
 
 /*slideshow*/
-#slideshow            {background:#18DDDE}
+#slideshow            {background-image:url(../images/sf.jpg); background-size: cover; background-position: center center;}
 #slideshow-mobile  {background:#D0CFCF;}
-
+ #BannerInfo {background:#FFFFFF; margin-top:6em;}
+ #BannerInfo h2 {padding:6em 6em;}
+ #BannerInfo h3 {padding:8em 8em;}
+ 
 /*two column*/
 .two-left 	      { height: inherit; background: white;}
 .two-right 	      { height: inherit; background: white;}
-#two-col          {padding: 20px 20px 20px 20px;}
+#two-col          {padding: 40px 20px 20px 20px; background:#FFFFFF;}
 #two-col h4{
 	padding: 10px 10px 0 10px;
 }
+#two-col img {width:100%; height:auto;}
 
 #two-col h2
  {padding: 0 10px;}
 
 /*four column*/
-#four-col .four    { background: #fff;}
+#four-col .four    { background: #FFFFFF;}
 #four-col h4 {padding: 10px 10px 0 10px;}
 #four-col h2 {padding: 0 10px;}
+#four-col {background:#FFFFFF;}
 
 /*breadcrumb*/
 #breadcrumb        {background:white; height:60px;}
@@ -147,7 +144,7 @@ h4 {
 
 /*footer*/
 #footer-main {
-	background:white;
+	background:#363f48;
 	border-top:thin #CECBCB solid;
 	height:90px;
 }
