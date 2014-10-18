@@ -23,7 +23,7 @@
 }
 
 body {
-	background: #eee;
+	background: #fff;
 }
 
 
@@ -44,7 +44,7 @@ h4 {
 	color: #103075;
 }
 
-.section        {background:#eee; }
+.section        {background:#363f48; }
 
 /* Header*/
 #header-main    {background:white; min-height:100px;}
@@ -53,6 +53,7 @@ h4 {
 #logoleft {
 	display: block;
 	float: left;
+	padding-top:3em;
 }
 
 
@@ -66,23 +67,22 @@ h4 {
 	color: #fff;
 	min-height: 48px;
 }
+
 #nav-left ul li {
 	display: block;
-	float: left;
+	float: right;
 	margin: 0;
 }
 
 #nav-left ul li a {
-	color: #000000;
-	text-decoration: none;
-	display: block;
-	padding: 15px;
-	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+color: #000000;
 }
 
 #nav-left ul li a:hover {
-	background: #fff;
-	color: #103075;
+	background: #1e73be;
+	color: #fff;
 }
 #catalog {
 	padding-top:15px;
@@ -91,10 +91,12 @@ h4 {
 
 /*slideshow*/
 #slideshow            {background-image:url(../images/sf.jpg); background-size: cover; background-position: center center;}
-#slideshow-mobile  {background:#D0CFCF;}
+
  #BannerInfo {background:#FFFFFF; margin-top:6em;}
- #BannerInfo h2 {padding:6em 6em;}
- #BannerInfo h3 {padding:8em 8em;}
+ #BannerInfo h2 {padding:6em 6em;font: 17px/1.4 "Helvetica Neue", sans-serif, normal;
+color: #2b353a;}
+ #BannerInfo h3 {padding:2em 6em; font: 17px/1.4 "Helvetica Neue", sans-serif, normal;
+color: #2b353a;}
  
 /*two column*/
 .two-left 	      { height: inherit; background: white;}
@@ -146,14 +148,34 @@ h4 {
 #footer-main {
 	background:#363f48;
 	border-top:thin #CECBCB solid;
-	height:90px;
+	min-height:200px;
 }
-#footer-main li {
-	float: left;
+/*#footer-main li {
+	padding: 22px 20px;
+width: 370px;
+background-color: #1e73be;
+color: #fff;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+line-height: 1;
 	
 }
-
-
+*/
+.button{
+	float:right;
+	padding: 22px 20px;
+width: 370px;
+background-color: #1e73be;
+color: #fff;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+line-height: 1;
+-webkit-font-smoothing: inherit;
+background: whitesmoke;
+border: 1px solid transparent;
+}
 
 
 
