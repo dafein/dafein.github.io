@@ -44,7 +44,7 @@ h4 {
 	color: #103075;
 }
 
-.section        {background:#363f48; }
+.section        {background:#fff; }
 
 /* Header*/
 #header-main    {background:white; min-height:100px;}
@@ -85,14 +85,15 @@ color: #000000;
 	color: #fff;
 }
 #catalog {
-	padding-top:15px;
+	margin-top:4em;
+	margin-bottom:4em;
 	border-bottom:thin #B0AAAA solid;
 	}
 
 /*slideshow*/
-#slideshow            {background-image:url(../images/sf.jpg); background-size: cover; background-position: center center;}
+#slideshow            {background-image:url(../images/sf.jpg); background-size: cover; background-position: center center; min-height:600px;}
 
- #BannerInfo {background:#FFFFFF; margin-top:6em;}
+ #BannerInfo { margin-top:6em;}
  #BannerInfo h2 {padding:6em 6em;font: 17px/1.4 "Helvetica Neue", sans-serif, normal;
 color: #2b353a;}
  #BannerInfo h3 {padding:2em 6em; font: 17px/1.4 "Helvetica Neue", sans-serif, normal;
@@ -146,7 +147,7 @@ color: #2b353a;}
 
 /*footer*/
 #footer-main {
-	background:#363f48;
+	background:#fff;
 	border-top:thin #CECBCB solid;
 	min-height:200px;
 }
@@ -162,41 +163,11 @@ line-height: 1;
 	
 }
 */
-.button{
-	float:right;
-	padding: 22px 20px;
-width: 370px;
-background-color: #1e73be;
-color: #fff;
-font-weight: bold;
-text-align: center;
-text-transform: uppercase;
-line-height: 1;
--webkit-font-smoothing: inherit;
-background: whitesmoke;
-border: 1px solid transparent;
-}
 
 
 
 
 
-#footer-main a {
-	padding: 10px 15px;
-	display: block;
-	text-decoration: none;
-	font-size: 11px;
-
-}
-
-#footer-main a:hover {
-	color: #13AEEB;
-}
-
-#footer-main p {
-	color:#CDCACA;
-	font-size: 10px;
-}
 /* SUBPAGE STYLES */
 
 #sub-nav {
