@@ -28,21 +28,6 @@ body {
 
 
 
-h2 {
-	font-family: sans-serif;
-	font-size: 18px;
-	line-height: 20px;
-	color: #103075;
-	margin: 0 0 20px 0;
-}
-
-h4 {
-	text-transform: uppercase;
-	font-family: sans-serif;
-	font-size: 10px;
-	line-height: 12px;
-	color: #103075;
-}
 
 .section        {background:#fff; }
 
@@ -62,25 +47,28 @@ h4 {
 
 
 /*nav*/
-#nav-main {
-	background: #FFFFFF;
-	color: #fff;
-	min-height: 48px;
-}
 
-#nav-left ul li {
+
+.nav-left ul li {
 	display: block;
-	float: right;
-	margin: 0;
+	float: left;
+	margin-top: 3em;
+	margin-bottom:3em;
 }
 
-#nav-left ul li a {
-	margin-bottom: 10px;
-	text-transform: uppercase;
-color: #000000;
+.nav-left ul li a {
+	display: inline-block;
+padding: 10px 14px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+line-height: 1;
+text-decoration: none;
 }
 
-#nav-left ul li a:hover {
+.nav-left ul li a:hover {
 	background: #1e73be;
 	color: #fff;
 }
@@ -94,10 +82,7 @@ color: #000000;
 #slideshow            {background-image:url(../images/sf.jpg); background-size: cover; background-position: center center; min-height:600px;}
 
  #BannerInfo { margin-top:6em;}
- #BannerInfo h2 {padding:6em 6em;font: 17px/1.4 "Helvetica Neue", sans-serif, normal;
-color: #2b353a;}
- #BannerInfo h3 {padding:2em 6em; font: 17px/1.4 "Helvetica Neue", sans-serif, normal;
-color: #2b353a;}
+ 
  
 /*two column*/
 .two-left 	      { height: inherit; background: white;}
@@ -127,18 +112,7 @@ color: #2b353a;}
 #breadcrumb ol li {
 	list-style-type:none;
 	margin:0;
-	color:#1A4AA7;
-	display: block;
-	float: left;
-	font-weight: bold;
-	padding: 0 10px;
-}
-#breadcrumb a {
 	
-	margin:0;
-	text-decoration:none;
-	list-style-type:none;
-	color:#1A4AA7;
 	display: block;
 	float: left;
 	font-weight: bold;
@@ -151,18 +125,7 @@ color: #2b353a;}
 	border-top:thin #CECBCB solid;
 	min-height:200px;
 }
-/*#footer-main li {
-	padding: 22px 20px;
-width: 370px;
-background-color: #1e73be;
-color: #fff;
-font-weight: bold;
-text-align: center;
-text-transform: uppercase;
-line-height: 1;
-	
-}
-*/
+ 
 
 
 
@@ -170,33 +133,19 @@ line-height: 1;
 
 /* SUBPAGE STYLES */
 
-#sub-nav {
-	background: #fff;
-}
 
-#sub-nav ul {
-	
-}
 
-#sub-nav ul li {
+#facebook-logo  {
 	float: left;
-	
-}
-
-#sub-nav ul li a {
-	color: #103075;
-	text-decoration: none;
-	padding: 14px 10px 5px 10px;
-	margin: 0;
 	display: block;
+	width:3em;
 }
 
-#sub-nav ul li a:hover {
-	color: #13AEEB;
+#twitter-logo  {
+	float: left;
+	width:3em;
+
 }
-
-
-
 
 
 /* #Page Styles
