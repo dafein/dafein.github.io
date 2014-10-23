@@ -75,7 +75,7 @@ text-decoration: none;
 	background: #1e73be;
 	color: #fff;
 }
-#catalog {
+.catalog {
 	margin-top:4em;
 	margin-bottom:4em;
 	border-bottom:thin #B0AAAA solid;
