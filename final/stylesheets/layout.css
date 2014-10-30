@@ -1,0 +1,30 @@
+body		{ background: #bbb; color: #000;}
+.container	{ background: #BBB;}
+li			{ list-style-type:disc; list-style-position:inside;}
+.image       {float:right;}
+.type        {float:left}
+#header		{ background: brown; margin-top:20px; margin-bottom: 20px;}
+#footer		{ background: red; }
+
+/* I added margin to separate all sections */
+.row		{ background: yellow; margin: 15px 0; }
+
+/* Custom padding for columns that need them */
+.column-padding		{	padding: 15px;}	
+
+/* The widths of one-third and two-thirds are already defined by Skeleton. I only define background colors here */
+.one-third	{ background:pink;}
+.two-thirds	{ background:aqua;}
+
+/* Custom styles given for section 5.1 and 5.2. The widths are percentages so it resizes correctly when you scale down to smaller sizes. */
+.one-third .first-half	{ width: 47%; float: left; background: purple;}
+.one-third .second-half	{ width: 47%; float: right; background: gray;}
+
+/* Random background colors */
+.two,
+.six,
+.three			{ background: orange;}
+.four				{ background: red}
+.eight			{ background: green;}
+
+#offset 	{ text-align:center;}
