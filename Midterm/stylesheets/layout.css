@@ -27,9 +27,6 @@ body {
 }
 
 
-h3 {font-size: 18px;
-	font-family: sans-serif;
-	line-height: 24px;}
 
 .section        {background:#fff; }
 
@@ -118,7 +115,7 @@ text-decoration: none;
 	
 	display: block;
 	float: left;
-	font-weight: bold;
+	
 	padding: 0 10px;
 }
 
