@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+#center {
+	text-align:center;
+}
+#center li{
+	background:#888;
+	padding:20px;
+	display:inline-block;
+}
+
+#border li{
+	background:#888;
+	padding:20px;
+	
+	
+}
+#border li:hover{
+	box-shadow:inset 0 -3px 0 0 red;
+}
+#middle {
+	height:200px;
+	width:400px;
+	background:green;
+	
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+
+#middle p{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	
+}
+#menu{
+	width:300px;
+	height:300px;
+	background:green;
+	border-radius:60px;
+	transition:
+	all 2s ease;
+	position:relative;
+}
+#menu:hover{
+	background:blue;
+	border-radius:50%;
+}
+#menu:after{
+	content:'';
+	display:block;
+	position:absolute;
+	
+	width:200px;
+	height:10px;
+	background:red;
+	
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	
+	box-shadow:0 40px 0 0 red, 0 -40px 0 0 red;
+	
+	
+}
+#menu:hover:after{
+	
+}
