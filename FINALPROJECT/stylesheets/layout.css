@@ -114,7 +114,8 @@ text-decoration: none;
 /*two column*/
 .two-left 	      { height: inherit; background: white;}
 .two-right 	      { height: inherit; background: white;}
-#two-col          {padding: 40px 20px 20px 20px; background-image:url(../images/bw.jpg); background-size: cover; background-position: center center; min-height:1337px;}
+/*#two-col          {padding: 40px 20px 20px 20px; background-image:url(../images/bw.jpg); background-size: cover; background-position: center center; min-height:1337px;}*/
+#two-col   {background:#FFF; min-height:1337px;}
 #two-col h4{
 	padding: 10px 10px 0 10px;
 }
