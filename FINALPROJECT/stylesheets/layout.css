@@ -1,0 +1,170 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+*, *:before, *:after {
+  	-moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+}
+
+
+
+.section        {background:#fff; }
+
+/* Header*/
+#header-main    {background:white; min-height:100px;}
+
+
+#logoleft {
+	display: block;
+	float: left;
+	padding-top:3em;
+}
+
+
+.menulogo { height:100px;}
+
+
+
+/*nav*/
+
+
+.nav-left ul li {
+	display: block;
+	float: left;
+	margin-top: 3em;
+	margin-bottom:3em;
+}
+
+.nav-left ul li a {
+
+	display: inline-block;
+padding: 10px 14px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+line-height: 1;
+text-decoration: none;
+}
+
+.nav-left ul li a:hover {
+	background: #1e73be;
+	color: #fff;
+}
+.catalog {
+	margin-top:4em;
+	margin-bottom:4em;
+	border-bottom:thin #B0AAAA solid;
+	}
+
+/*slideshow*/
+#slideshow            {background-image:url(../images/bw.jpg); background-size: cover; background-position: center center; min-height:600px; height: 1337px;}
+
+ #BannerInfo { margin-top:6em;}
+ 
+ 
+/*two column*/
+.two-left 	      { height: inherit; background: white;}
+.two-right 	      { height: inherit; background: white;}
+#two-col          {padding: 40px 20px 20px 20px; background-image:url(../images/ub.jpg); background-size: cover; background-position: center center; min-height:1337px;}
+#two-col h4{
+	padding: 10px 10px 0 10px;
+}
+#two-col img {width:100%; height:auto;}
+
+#two-col h2
+ {padding: 0 10px;}
+
+/*four column*/
+#four-col .four    { background: #FFFFFF;}
+#four-col h4 {padding: 10px 10px 0 10px;}
+#four-col h2 {padding: 0 10px;}
+#four-col {background-image:url(../images/pi.jpg); background-size: cover; background-position: center center; min-height:600px; height: 1337px;}
+
+/*breadcrumb*/
+#breadcrumb        {background:white; height:60px;}
+#breadcrumb ol{
+	margin:0;
+	padding-top:15px;
+}
+
+#breadcrumb ol li {
+	list-style-type:none;
+	margin:0;
+	
+	display: block;
+	float: left;
+	
+	padding: 0 10px;
+}
+
+/*footer*/
+#footer-main {
+	background:#fff;
+	border-top:thin #CECBCB solid;
+	min-height:200px;
+}
+ 
+
+
+
+
+
+/* SUBPAGE STYLES */
+
+#sub-nav {
+border-top:thin #CECBCB solid;
+}
+
+#facebook-logo  {
+	float: left;
+	display: block;
+	width:3em;
+}
+
+#twitter-logo  {
+	float: left;
+	width:3em;
+
+}
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	
+
+	
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
