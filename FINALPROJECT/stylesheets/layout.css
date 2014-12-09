@@ -50,8 +50,14 @@ h1 {
 
 .menulogo { height:100px;}
 
-
-
+/*banner*/
+#banner-main h1{
+color:black;	
+}
+#info a {
+	color:#1e73be; border-bottom:thin;
+	
+}
 /*nav*/
 #main-nav{
 	margin: 15em 10em;
@@ -60,7 +66,7 @@ h1 {
 #main-nav li{
 	text-align:center;
 }
-#main-nav a{
+#main-nav ul li a{
 	
 	display: inline-block;
 padding: 10px 14px;
@@ -108,23 +114,24 @@ text-decoration: none;
 	border-bottom:thin #B0AAAA solid;
 	}
 
-
+#two-col ul, p {
+	color:#fff; 
+	}
  
  
 /*two column*/
-.two-left 	      { height: inherit; background: white;}
-.two-right 	      { height: inherit; background: white;}
-/*#two-col          {padding: 40px 20px 20px 20px; background-image:url(../images/bw.jpg); background-size: cover; background-position: center center; min-height:1337px;}*/
-#two-col   {background:#FFF; min-height:1337px;}
+      
+#two-col          {padding: 40px 20px 20px 20px; background-image:url(../images/w.jpg); background-size: cover; background-position: center center; min-height:200px;}
 #two-col h4{
 	padding: 10px 10px 0 10px;
 }
+
 #two-col img {width:20em; height:18em;}
 
 #two-col h2
  {padding: 0 10px;}
 
-
+#two-right {border-left:thin #fff solid;}
 
 /*four column*/
 #four-col .four    { background: #FFFFFF;}
