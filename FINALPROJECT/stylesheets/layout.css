@@ -30,11 +30,17 @@ h1 {
 	font-size:60px;
 	color:#fff;
 }
+h2, p {font-size:40px; color:#fff;}
 
 .section        {background:#fff; }
 
-/* Header*/
+
+
+
+/* header-main*/
 #header-main    {background: #1e73be; min-height:100px;}
+#header-main h1 {font-weight:700;
+}
 
 
 #logoleft {
@@ -50,99 +56,90 @@ h1 {
 
 .menulogo { height:100px;}
 
-/*banner*/
-#banner-main h1{
-color:black;	
-}
-#info a {
-	color:#1e73be; border-bottom:thin;
-	
-}
+/*banner-main*/
+#banner-main {margin:4em 4em;}
+#info a {color:#1e73be; text-decoration:underline;}
+#info h1 {color:#1e73be; font-weight:300;}
+h1 span {font-weight:bold;}
+
+
 /*nav*/
 #main-nav{
 	margin: 15em 10em;
 	
 }
+#main-nav .column {height:300px;
+	 -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+border:2px solid black;
+position:relative;
+overflow:hidden;}
+
 #main-nav li{
 	text-align:center;
 }
 #main-nav ul li a{
 	
 	display: inline-block;
-padding: 10px 14px;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
--ms-border-radius: 5px;
--o-border-radius: 5px;
-border-radius: 5px;
+/*padding: 10px 14px;*/
+
 line-height: 1;
 text-decoration: none;
+
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+padding:50px 0 0;
 }
-#main-nav li:hover {
-	background: #1e73be;
-	}
-#main-nav li:hover a{
+
+
+#main-nav li:first-child a:hover{
 	color:#fff;
-}
-.nav-left ul li {
-	display: block;
-	float: left;
-	margin-top: 3em;
-	margin-bottom:3em;
-}
-
-.nav-left ul li a {
-
-	display: inline-block;
-padding: 10px 14px;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
--ms-border-radius: 5px;
--o-border-radius: 5px;
-border-radius: 5px;
-line-height: 1;
-text-decoration: none;
-}
-
-.nav-left ul li a:hover {
 	background: #1e73be;
-	color: #fff;
 }
-.catalog {
-	margin-top:4em;
-	margin-bottom:4em;
-	border-bottom:thin #B0AAAA solid;
-	}
 
-#two-col ul, p {
-	color:#fff; 
-	}
+#main-nav li:nth-child(2) a:hover{
+	color:#fff;
+	background: #E10003;
+}
+
+#main-nav li:nth-child(3) a:hover{
+	color:#fff;
+	background: #FF7400;
+}
+
+
+
+
  
- 
-/*two column*/
+/*breathe*/
       
-#two-col          {padding: 40px 20px 20px 20px; background-image:url(../images/w.jpg); background-size: cover; background-position: center center; min-height:200px;}
-#two-col h4{
-	padding: 10px 10px 0 10px;
-}
+#breathe          {padding: 40px 20px 20px 20px;background:#1e73be;}
+#breathe h1, h2, p {color:#fff;}
 
-#two-col img {width:20em; height:18em;}
+#breathe img {width:20em; height:18em;}
 
 #two-col h2
  {padding: 0 10px;}
 
 #two-right {border-left:thin #fff solid;}
 
-/*four column*/
-#four-col .four    { background: #FFFFFF;}
-#four-col h4 {padding: 10px 10px 0 10px;}
-#four-col h2 {padding: 0 10px;}
-#four-col {background-image:url(../images/pi.jpg); background-size: cover; background-position: center center; min-height:600px; height: 1337px;}
+/*Mind*/
 
-
+#mind h4 {padding: 10px 10px 0 10px;}
+#mind h2 {padding: 0 10px;}
+#mind {background:#E10003;}
 
 /*move*/
-#four-col1{background-image:url(../images/bw.jpg); background-size: cover; background-position: center center; min-height:600px; height: 1337px;}
+
+#move {background:#FF7400;}
+
 
 
 
@@ -150,8 +147,56 @@ text-decoration: none;
 #footer-main {
 	background:#fff;
 	border-top:thin #CECBCB solid;
-	min-height:200px;
+	
 }
+#footer-main{
+	margin: 15em 10em;
+	
+}
+#footer-main .column {height:300px;
+	 -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+border:2px solid black;
+position:relative;
+overflow:hidden;}
+
+#footer-main li{
+	text-align:center;
+}
+#footer-main ul li a{
+display: inline-block;
+line-height: 1;
+text-decoration: none;
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+padding:50px 0 0;
+}
+
+
+
+#footer-main li:first-child a:hover{
+	color:#fff;
+	background: #1e73be;
+}
+
+#footer-main li:nth-child(2) a:hover{
+	color:#fff;
+	background: #E10003;
+}
+
+#footer-main li:nth-child(3) a:hover{
+	color:#fff;
+	background: #FF7400;
+}
+
+
  
 
 
