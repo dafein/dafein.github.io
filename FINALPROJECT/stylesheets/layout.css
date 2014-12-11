@@ -64,7 +64,6 @@ h1 span       {font-weight:bold;}
 
 
 /*nav*/
-#main-nav     {margin: 15em 10em;}
 #main-nav .column {
 	height:300px;
 	-webkit-border-radius: 50%;
@@ -118,7 +117,7 @@ h1 span       {font-weight:bold;}
 
 #two-col h2        {padding: 0 10px;}
 
-#two-right         {border-left:thin #fff solid;}
+
 
 
 
