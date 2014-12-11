@@ -153,7 +153,7 @@ padding:50px 0 0;
 	margin: 15em 10em;
 	
 }
-#footer-main .column {height:300px;
+#footer-main .column {min-height:300px;
 	 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
 -ms-border-radius: 50%;
@@ -198,9 +198,14 @@ padding:50px 0 0;
 
 
  
+#footer-main img {
+	width:4em;
+	height:4em;
+}
 
-
-
+#footer-main h3 {
+	font-size:20px;
+}
 
 
 
