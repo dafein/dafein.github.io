@@ -32,7 +32,8 @@ h1, h2 {
 }
  p {font-size:40px; color:#fff;}
 
-.section        {background:#fff; }
+.section      {background:#fff; }
+.row      {margin-bottom:0;}
 
 
 
@@ -52,10 +53,6 @@ h1, h2 {
 	float: right;
 	padding-top:3em;
 }
-
-.menulogo { height:100px;}
-
-
 
 
 
@@ -147,12 +144,9 @@ h1 span       {font-weight:bold;}
 	border-top:thin #CECBCB solid;
 	
 }
-#footer-main{
-	margin: 15em 10em;
-	
-}
+
 #footer-main .column {
-	min-height:300px;
+
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -167,15 +161,10 @@ h1 span       {font-weight:bold;}
 }
 #footer-main ul li a{
 	display: inline-block;
-	line-height: 1;
+
 	text-decoration: none;
-	position:absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	margin:auto;
-	padding:50px 0 0;}
+	
+	padding:20px;}
 
 
 
