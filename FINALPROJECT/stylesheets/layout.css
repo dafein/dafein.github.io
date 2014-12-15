@@ -63,6 +63,7 @@ h1 span       {font-weight:bold;}
 
 
 /*nav*/
+
 #main-nav .column {
 	height:300px;
 	-webkit-border-radius: 50%;
@@ -102,44 +103,41 @@ h1 span       {font-weight:bold;}
 	color:#fff;
 	background: #FF7400;
 }
-
+#main-nav{padding-bottom:9em;}
 
 
 
  
 /*breathe*/
       
-#breathe           {padding: 40px 20px 20px 20px;background:#1e73be;}
-#breathe h1, h2, p {color:#fff;}
-
-#breathe img       {width:20em; height:18em;}
-
-#two-col h2        {padding: 0 10px;}
-
+#breathe           {background-image:url(../images/bag.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#breathe h1, h2, p  {color:#fff;}
+#breathe h1         {padding-top:2em; padding-bottom:2em;}
+#breathe            {border-bottom:#FFFFFF thin solid;}
 
 
 
 
 /*Mind*/
 
-#mind h4           {padding: 10px 10px 0 10px;}
-#mind h2           {padding: 0 10px;}
+
+
 #mind              {background-image:url(../images/feldenkrais.jpg); background-size: cover; background-position: center center; min-height:800px;}
 #mind h1 {padding-top:2em; padding-bottom:2em;}
-
+#mind {border-bottom:#FFFFFF thin solid;}
 
 
 /*move*/
 
 #move               {background-image:url(../images/gyro.jpg); background-size: cover; background-position: center center; min-height:800px;}
 #move h1 {padding-top:2em; padding-bottom:2em;}
-
+#move p   {padding-bottom:2em;}
 
 
 /*footer-main*/
 #footer-main {
 	background:#fff;
-	border-top:thin #CECBCB solid;
+	border-top:thin #FFF solid;
 	
 }
 
