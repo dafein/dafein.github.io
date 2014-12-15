@@ -27,7 +27,7 @@ body {
 }
 
 h1, h2         { font-size:60px; color:#fff;}
- p 			   {font-size:40px; color:#fff;}
+ p 			   {font-size:30px; color:#fff; font-weight:100;}
 
 .section      {background:#fff; }
 .row          {margin-bottom:0;}
@@ -36,27 +36,29 @@ h1, h2         { font-size:60px; color:#fff;}
 
 
 /* header-main*/
-#header-main        {background: #1e73be; min-height:100px;}
-#header-main h1, h2 {font-weight:700;}
-
+#header-main        {background-image:url(../images/arch.jpg); background-size: cover; background-position: center center; min-height:200px;}
+#header-main h1 {font-weight:700; color:#000000;}
+#header-main h2 {font-weight:700; color:#FFFFFF;}
 
 #logoleft {
 	display: block;
 	float: left;
 	padding-top:3em;
+	padding-bottom:3em;
 }
 #logoright {
 	display: block;
 	float: right;
 	padding-top:3em;
+	padding-bottom:3em;
 }
 
 
 
 /*banner-main*/
 #banner-main  {margin:4em 4em;}
-#info a       {color:#1e73be; text-decoration:underline;}
-#info h1      {color:#1e73be; font-weight:300;}
+#info a       {color:#000; text-decoration:underline;}
+#info h1      {color:#000; font-weight:300;}
 h1 span       {font-weight:bold;}
 
 
@@ -122,15 +124,15 @@ h1 span       {font-weight:bold;}
 
 #mind h4           {padding: 10px 10px 0 10px;}
 #mind h2           {padding: 0 10px;}
-#mind              {background:#E10003;}
-
+#mind              {background-image:url(../images/feldenkrais.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#mind h1 {padding-top:2em; padding-bottom:2em;}
 
 
 
 /*move*/
 
-#move              {background:#FF7400;}
-
+#move               {background-image:url(../images/gyro.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#move h1 {padding-top:2em; padding-bottom:2em;}
 
 
 
@@ -180,7 +182,7 @@ h1 span       {font-weight:bold;}
 }
 #footer-main li:nth-child(4) a:hover{
 	color:#fff;
-	background:#00C32A;
+	background:#00B1DB;
 }
 
  
