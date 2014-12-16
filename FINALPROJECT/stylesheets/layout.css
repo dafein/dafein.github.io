@@ -26,7 +26,7 @@ body {
 	background: #fff;
 }
 
-h1, h2         { font-size:60px; color:#fff;}
+h1, h2         { font-size:40px; color:#fff;}
  p 			   {font-size:30px; color:#fff; font-weight:100;}
 
 .section      {background:#fff; }
@@ -37,7 +37,8 @@ h1, h2         { font-size:60px; color:#fff;}
 
 /* header-main*/
 #header-main        {background-image:url(../images/mac.jpg); background-size: cover; background-position: center center; min-height:800px;}
-#header-main h1, h2 {font-weight:700; color:#000000;}
+#header-main h1 {font-size:60px; font-weight:700; color:#000000;}
+#header-main h2 {font-size:40px; font-weight:300; color:#000;}
 #header-main img {
 	width:4em;
 	height:4em;
@@ -59,13 +60,15 @@ h1, h2         { font-size:60px; color:#fff;}
 	padding-bottom:3em;
 }
 
-
+ #header-copy {padding-top:3em;}
+ #header-copy h2 {font-weight:100; border-left:#000000 thin solid;border-right:#000000 thin solid; padding-left:.5em; padding-right:.5em;}
+#header-main {border-bottom:#000000 thin solid;}
 
 /*banner-main*/
-#info         {padding-top:4em; }
-#info a       {color:#000; text-decoration:underline;}
+#info         {padding-top:4em; padding-bottom:2em; }
+
 #info h1      {color:#000; font-weight:300;}
-h1 span       {font-weight:bold;}
+
 #info h2      {color:#000; font-weight:300;}
 
 
@@ -102,19 +105,19 @@ h1 span       {font-weight:bold;}
 }
 
 
-#main-nav{padding-bottom:9em;}
+#main-nav{padding-bottom:9em;border-bottom:#000000 thin solid; }
 
 
 
  
 /*breathe*/
       
-#breathe           {background-image:url(../images/bag.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#breathe           {background-image:url(../images/qi.jpg); background-size: cover; background-position: center center; min-height:800px;}
 #breathe h1, h2, p  {color:#fff;}
 #breathe h1         {padding-top:2em; padding-bottom:2em;}
 #breathe            {border-bottom:#FFFFFF thin solid;}
 
-
+#breathe img {border:#fff  thin solid;}
 
 
 /*Mind*/
@@ -124,29 +127,26 @@ h1 span       {font-weight:bold;}
 #mind              {background-image:url(../images/feldenkrais.jpg); background-size: cover; background-position: center center; min-height:800px;}
 #mind h1 {padding-top:2em; padding-bottom:2em;}
 #mind {border-bottom:#FFFFFF thin solid;}
-
+#mind img {border:#fff  thin solid;}
 
 /*move*/
 
 #move               {background-image:url(../images/gyro.jpg); background-size: cover; background-position: center center; min-height:800px;}
 #move h1 {padding-top:2em; padding-bottom:2em;}
 #move p   {padding-bottom:2em; }
+#move {border-bottom:#000000 thin solid;}
+#move img {border:#fff  thin solid;}
 
 
 /*final */
 
-#final      {background-image:url(../images/mac.jpg); background-size: cover; background-position: center center; min-height:800px;}
-#final h1, h2 {font-weight:700; color:#000000;}
+#final      {background-image:url(../images/mac.jpg); background-size: cover; background-position: center center; min-height:500px;}
+#final h1, h2 {font-weight:300; color:#000000;}
 
 
-#finalleft {
-	display: block;
-	float: left;
-	padding-top:3em;
-	padding-bottom:3em;
-}
+#final h1 {padding-top:3em;}
 
-
+#final {border-bottom:#000000 thin solid;}
 
 
 
@@ -181,8 +181,8 @@ h1 span       {font-weight:bold;}
 
 
 
-#footer-main li a:hover{
-	color:#fff;
+#footer-main img:hover{
+
 	background-image:url(../images/bag.jpg); background-size: cover; background-position: center center;
 }
 
