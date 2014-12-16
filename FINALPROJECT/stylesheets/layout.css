@@ -36,7 +36,7 @@ h1, h2         { font-size:60px; color:#fff;}
 
 
 /* header-main*/
-#header-main        {background-image:url(../images/li.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#header-main        {background-image:url(../images/mac.jpg); background-size: cover; background-position: center center; min-height:800px;}
 #header-main h1, h2 {font-weight:700; color:#000000;}
 #header-main img {
 	width:4em;
@@ -135,7 +135,7 @@ h1 span       {font-weight:bold;}
 
 /*final */
 
-#final      {background-image:url(../images/li.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#final      {background-image:url(../images/mac.jpg); background-size: cover; background-position: center center; min-height:800px;}
 #final h1, h2 {font-weight:700; color:#000000;}
 
 
