@@ -36,20 +36,16 @@ h1, h2         { font-size:60px; color:#fff;}
 
 
 /* header-main*/
-#header-main        {background-image:url(../images/l.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#header-main        {background-image:url(../images/li.jpg); background-size: cover; background-position: center center; min-height:800px;}
 #header-main h1, h2 {font-weight:700; color:#000000;}
 #header-main img {
 	width:4em;
 	height:4em;
 }
 
-#header-main h3 {
-	font-size:20px;
-}
-#header-main  img:hover{
-	color:#fff;
-	background:#fff;
-}
+
+
+
 #logoleft {
 	display: block;
 	float: left;
@@ -66,7 +62,7 @@ h1, h2         { font-size:60px; color:#fff;}
 
 
 /*banner-main*/
-#info {padding-top:4em; }
+#info         {padding-top:4em; }
 #info a       {color:#000; text-decoration:underline;}
 #info h1      {color:#000; font-weight:300;}
 h1 span       {font-weight:bold;}
@@ -139,7 +135,7 @@ h1 span       {font-weight:bold;}
 
 /*final */
 
-#final      {background-image:url(../images/l.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#final      {background-image:url(../images/li.jpg); background-size: cover; background-position: center center; min-height:800px;}
 #final h1, h2 {font-weight:700; color:#000000;}
 
 
