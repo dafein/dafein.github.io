@@ -26,7 +26,7 @@ body {
 	background: #fff;
 }
 
-h1, h2         { font-size:40px; color:#fff;}
+h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
  p 			   {font-size:30px; color:#fff; font-weight:100;}
 
 .section      {background:#fff; }
@@ -37,12 +37,9 @@ h1, h2         { font-size:40px; color:#fff;}
 
 /* header-main*/
 #header-main        {background-image:url(../images/mac.jpg); background-size: cover; background-position: center center; min-height:800px;}
-#header-main h1 {font-size:60px; font-weight:700; color:#000;text-shadow: -1px 1px 8px #000, 1px -1px 8px #000}
-#header-main h2 {font-size:40px; font-weight:300; color:#000;text-shadow: -1px 1px 8px #000, 1px -1px 8px #fff}
-#header-main img {
-	width:4em;
-	height:4em;
-}
+#header-main h1 {font-size:60px; font-weight:700; color:#11A9C3;}
+#header-main h2 {font-size:40px; font-weight:500; color:#11A9C3;}
+#header-main img {width:4em; height:4em;}
 
 
 
@@ -67,9 +64,9 @@ h1, h2         { font-size:40px; color:#fff;}
 /*banner-main*/
 #info         {padding-top:4em; padding-bottom:2em; }
 
-#info h1      {color:#000; font-weight:300;}
+#info h1      {color:#11A9C3;; font-weight:300;}
 
-#info h2      {color:#000; font-weight:300;}
+#info h2      {color:#11A9C3;; font-weight:300;}
 
 
 /*nav*/
@@ -213,7 +210,20 @@ h1, h2         { font-size:40px; color:#fff;}
 	
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		#header-main h1 {font-size:40px; font-weight:700; color:#11A9C3;}
+        #header-main h2 {font-size:20px; font-weight:300; color:#11A9C3;}
+		#header-main        { background-image:url(../images/mac1.jpg); background-size: cover; background-position: center center;min-height:400px;}
+		h1, h2         { font-size:25px; color:#fff; text-transform: uppercase;}
+ p 			   {font-size:20px; color:#fff; font-weight:100;}
+ 
+ 
+
+
+
+	 
+ }
+		}
 
 	
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
