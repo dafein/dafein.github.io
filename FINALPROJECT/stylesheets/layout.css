@@ -224,8 +224,7 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 	width:150px;}
 
 #main-nav li   {text-align:center;}
-#main-nav ul li a{
-	}
+
 
 
 #main-nav li a:hover{
@@ -238,7 +237,7 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 
 #main-nav img {width:50px; height:50px;
  }
- #main-nav h3 {font-size:10px;}
+ #main-nav h3 {font-size:20px;}
 		}
 
 	
