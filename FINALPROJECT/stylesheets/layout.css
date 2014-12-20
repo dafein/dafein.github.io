@@ -58,7 +58,7 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 }
 
  #header-copy {padding-top:3em;}
- #header-copy h2 {font-weight:100; border-left:#000000 thin solid;border-right:#000000 thin solid; padding-left:.5em; padding-right:.5em;}
+ #header-copy h2 {font-weight:100; padding-left:.5em; padding-right:.5em;}
 #header-main {border-bottom:#000000 thin solid;}
 
 /*banner-main*/
@@ -211,14 +211,14 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		#header-main h1 {font-size:40px; font-weight:700; color:#11A9C3;}
-        #header-main h2 {font-size:20px; font-weight:300; color:#11A9C3;}
+		#header-main h1 {font-size:50px; font-weight:700; color:#11A9C3;}
+        #header-main h2 {font-size:40px; font-weight:500; color:#11A9C3; padding-bottom:2em;}
 		#header-main        { background-image:url(../images/mac1.jpg); background-size: cover; background-position: center center;min-height:400px;}
 		h1, h2         { font-size:25px; color:#fff; text-transform: uppercase;}
  p 			   {font-size:20px; color:#fff; font-weight:100;}
  
  
-
+#logoright{float:left;}
 
 
 	 
