@@ -84,7 +84,8 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 	border-radius: 50%;
 	border:2px solid black;
 	position:relative;
-	overflow:hidden;}
+	overflow:hidden;
+	background:#fff;}
 
 #main-nav li   {text-align:center;}
 #main-nav ul li a{
@@ -106,7 +107,7 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 }
 
 
-#main-nav{padding-bottom:9em;border-bottom:#000000 thin solid; }
+#main-nav{padding-bottom:9em;}
 
 
 
