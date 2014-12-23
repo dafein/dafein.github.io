@@ -36,8 +36,8 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 
 
 /* header-main*/
-#header-main        {background-image:url(../images/mac.jpg); background-size: cover; background-position: center center; min-height:800px;}
-#header-main h1 {font-size:60px; font-weight:400; color:#11A9C3;}
+#header-main        {background-image:url(../images/mac.jpg); 					background-size: cover; 				 background-position: center center; min-height:800px;}
+#header-main h1 {font-size:60px; font-weight:400; color:#000;}
 #header-main h2 {font-size:40px; font-weight:300; color:#11A9C3;}
 
 #header-main img {width:4em; height:4em;}
@@ -57,11 +57,19 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 	padding-top:3em;
 	padding-bottom:3em;
 }
+#logoright img:hover {
+	background-image:url(../images/bagu.jpg); background-size: cover; background-position: center center;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
 
  #header-copy {padding-top:3em;}
  #header-copy h2 {font-weight:100; padding-left:.5em; padding-right:.5em;}
  #header-copy h2 span {
-	 font-weight:700;
+	 font-weight:700; color:#000;
  }
 #header-main {border-bottom:#000000 thin solid;}
 
@@ -74,9 +82,9 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 
 
 /*nav*/
-
+#main-nav h1 {font-size:90px;}
 #main-nav .column {
-	height:300px;
+	height:200px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -101,9 +109,20 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 	padding:50px 0 0;}
 
 
-#main-nav li a:hover{
-	color:#fff;
-	background-image:url(../images/bag.jpg); background-size: cover; background-position: center center;
+
+#main-nav li:first-child a:hover{
+	color:#11A9C3;
+	background-image:url(../images/bagu.jpg); background-size: cover; background-position: center center;
+}
+
+#main-nav li:nth-child(2) a:hover{
+	color:#11A9C3;
+	background-image:url(../images/feld.jpg); background-size: cover; background-position: center center;
+}
+
+#main-nav li:nth-child(3) a:hover{
+	color:#11A9C3;
+	background-image:url(../images/example.jpg); background-size: cover; background-position: center center;
 }
 
 
@@ -185,7 +204,7 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 
 #footer-main img:hover{
 
-	background-image:url(../images/bag.jpg); background-size: cover; background-position: center center;
+	background-image:url(../images/bagu.jpg); background-size: cover; background-position: center center;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -240,7 +259,7 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 
 #main-nav li a:hover{
 	color:#fff;
-	background-image:url(../images/bag.jpg); background-size: cover; background-position: center center;
+	background-image:url(../images/bagu.jpg); background-size: cover; background-position: center center;
 }
 
 
