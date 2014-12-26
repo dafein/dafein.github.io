@@ -37,9 +37,9 @@ h1, h2         { font-size:40px; color:#fff;}
 
 /* header-main*/
 #header-main        {background-image:url(../images/7.jpg); background-size: cover; background-position: center center; min-height:800px;}
-#header-main h1 {font-size:100px; font-weight:400; color:#000;text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff}
-#header-main h1 span{font-size:90px; font-weight:300; color:#000;text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff}
-#header-main h2 {font-size:40px; font-weight:300; color:#fff;}
+#header-main h1 {font-size:100px; font-weight:400; color:#fff;text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #000}
+#header-main h1 span{font-size:90px; font-weight:300; color:#fff;text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #000}
+#header-main h2 {font-size:60px; font-weight:300; color:#fff;}
 #header-main img {
 	width:4em;
 	height:4em;

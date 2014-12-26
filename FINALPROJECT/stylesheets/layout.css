@@ -36,9 +36,18 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 
 
 /* header-main*/
-#header-main        {background-image:url(../images/mac.jpg); 					background-size: cover; 				 background-position: center center; min-height:800px;}
+#header-main        {background-image:url(../images/mac.jpg); 					background-size: cover; 				 background-position: center center; min-height:600px;}
 #header-main h1 {font-size:60px; font-weight:400; color:#000;}
 #header-main h2 {font-size:40px; font-weight:300; color:#11A9C3;}
+#header-main h3{
+	text-transform: uppercase;
+	font-size:90px;
+	
+}
+#header-main h4 {
+	text-transform: uppercase;
+	font-size:20px;
+}
 
 #header-main img {width:4em; height:4em;}
 
@@ -71,7 +80,7 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
  #header-copy h2 span {
 	 font-weight:700; color:#000;
  }
-#header-main {border-bottom:#000000 thin solid;}
+#header-main {border-bottom:#fff thin solid;}
 
 /*banner-main*/
 #info         {padding-top:4em; padding-bottom:2em; }
@@ -126,7 +135,7 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 }
 
 
-#main-nav{padding-bottom:9em;}
+#main-nav{padding-bottom:3em;}
 
 
 
@@ -162,12 +171,12 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 /*final */
 
 #final      {background-image:url(../images/mac.jpg); background-size: cover; background-position: center center; min-height:500px;}
-#final h1, h2 {font-weight:300; color:#11A9C3;}
+#final h1, h2 {font-weight:300; color:#000;}
 
 
 #final h1 {padding-top:3em;}
 
-#final {border-bottom:#000000 thin solid;}
+#final {border-bottom:#000 thin solid;}
 
 
 
@@ -241,8 +250,8 @@ h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		#header-main h1 {font-size:50px; font-weight:700; color:#11A9C3;}
-        #header-main h2 {font-size:40px; font-weight:500; color:#11A9C3; padding-bottom:2em;}
+		#header-main h1 {font-size:50px; font-weight:700; color:#000;}
+        #header-main h2 {font-size:40px; font-weight:500; color:#000; padding-bottom:2em;}
 		#header-main        { background-image:url(../images/mac1.jpg); background-size: cover; background-position: center center;min-height:400px;}
 		h1, h2         { font-size:25px; color:#fff; text-transform: uppercase;}
  p 			   {font-size:20px; color:#fff; font-weight:100;}
