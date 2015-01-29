@@ -1,0 +1,97 @@
+* {background: transparent !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important;}
+
+body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font-size: 16px; color: #000;}
+
+.not-printed, .navbar-fixed-top, .saved-box, .print, .assessments, #placeholder, .addTrialBtn, #searchBtn, #fixedWrapper, #query, #q, .panel, #addNoteBtn, .filter-panel, .search-form,
+.progress-denominator, .progress-recruiting, .sideButtons, .pagination, .breadcrumbs, .note-div, #pageNum, .footer-content a { display: none; }
+
+#locationBox, #selected_filters { display: block; }
+
+#selected_filters { text-align: left; margin: 0; }
+
+.recruiting-progress-bar { margin: 0; padding: 0 0 10px;}
+
+a { word-wrap: break-word; }
+
+a, .standout { color: #000; }
+
+table, h3.fancy, .ui-state-default, #middleColumn dl a { page-break-inside: avoid; }
+
+.progress-denominator {
+    border: 1px dashed #999999;
+    height: 6px;
+}
+.progress-recruiting {
+    border: 2px solid #666666;
+    height: 4px;
+}
+.bold {
+    font-weight: bold;
+}
+.span6 {
+    width: 600px;
+}
+.span3 {
+    width: 150px;
+}
+#middleColumn {
+    width: 900px;
+    font-size: 1.2em;
+}
+dt a.trial-title {
+    display: inline-block;
+    width: 850px;
+}
+.in-notebook .content-div {
+    width: 90%;
+    font-size: 1.0em;
+    line-height: 1.05em;
+}
+.in-notebook .content-div h3 {
+    font-size: 1.1em;
+}
+.trial-div .trial-meta-data {
+    margin-top: 0.3em;
+}
+.footer-content {
+    font-size: 1.5em;
+}
+
+dd h3 {
+    margin: 0 0 0.2em 0;
+}
+p.printed-note {
+    font-size: 1.0em;
+    border: none;
+    padding: 0;
+    margin: 0 0 1em 0;
+    white-space: pre-wrap;
+}
+
+:-moz-placeholder {
+    color: #fefefe;
+}
+-ms-input-placeholder {
+    color: #fefefe;
+}
+::-webkit-input-placeholder {
+    color: #fefefe;
+}
+input:-moz-placeholder {
+    color: #fefefe;
+}
+.print-only {
+    display: block;
+}
+.logo-url {
+    position: relative;
+    top: -12px;
+    left: 83px;
+}
+.print-url {
+    position: relative;
+    top: -33px;
+}
+.table tr.gray-out td {
+    color: #EEEEEE;
+}

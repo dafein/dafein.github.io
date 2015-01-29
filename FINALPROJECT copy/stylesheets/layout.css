@@ -1,0 +1,286 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+*, *:before, *:after {
+  	-moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+}
+
+h1, h2         { font-size:40px; color:#fff; text-transform: uppercase;}
+ p 			   {font-size:30px; color:#fff; font-weight:100;}
+
+.section      {background:#fff; }
+.row          {margin-bottom:0;}
+
+
+
+
+/* header-main*/
+#header-main        {background-image:url(../images/mac.jpg); 					background-size: cover; 				 background-position: center center; min-height:600px;}
+#header-main h1 {font-size:60px; font-weight:400; color:#000;}
+#header-main h2 {font-size:40px; font-weight:300; color:#11A9C3;}
+#header-main h3{
+	text-transform: uppercase;
+	font-size:90px;
+	
+}
+#header-main h4 {
+	text-transform: uppercase;
+	font-size:20px;
+}
+
+#header-main img {width:4em; height:4em;}
+
+
+
+
+#logoleft {
+	display: block;
+	float: left;
+	padding-top:3em;
+	padding-bottom:3em;
+}
+#logoright {
+	display: block;
+	float: right;
+	padding-top:3em;
+	padding-bottom:3em;
+}
+#logoright img:hover {
+	background-image:url(../images/bagu.jpg); background-size: cover; background-position: center center;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+ #header-copy {padding-top:3em;}
+ #header-copy h2 {font-weight:100; padding-left:.5em; padding-right:.5em;}
+ #header-copy h2 span {
+	 font-weight:700; color:#000;
+ }
+#header-main {border-bottom:#fff thin solid;}
+
+/*banner-main*/
+#info         {padding-top:4em; padding-bottom:2em; }
+
+#info h1      {color:#11A9C3;; font-weight:300;}
+
+#info h2      {color:#11A9C3;; font-weight:300;}
+
+
+/*nav*/
+#main-nav h1 {font-size:90px;}
+#main-nav .column {
+	height:200px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	border:2px solid black;
+	position:relative;
+	overflow:hidden;
+	background:#fff;}
+
+#main-nav li   {text-align:center;}
+#main-nav ul li a{
+	display: inline-block;
+	line-height: 1;
+	text-decoration: none;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	padding:50px 0 0;}
+
+
+
+#main-nav li:first-child a:hover{
+	color:#11A9C3;
+	background-image:url(../images/bagu.jpg); background-size: cover; background-position: center center;
+}
+
+#main-nav li:nth-child(2) a:hover{
+	color:#11A9C3;
+	background-image:url(../images/feld.jpg); background-size: cover; background-position: center center;
+}
+
+#main-nav li:nth-child(3) a:hover{
+	color:#11A9C3;
+	background-image:url(../images/example.jpg); background-size: cover; background-position: center center;
+}
+
+
+#main-nav{padding-bottom:3em;}
+
+
+
+ 
+/*breathe*/
+      
+#breathe           {background-image:url(../images/qi.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#breathe h1, h2, p  {color:#fff;}
+#breathe h1         {padding-top:2em; padding-bottom:2em;}
+#breathe            {border-bottom:#FFFFFF thin solid;}
+
+#breathe img {border:#fff  thin solid;}
+
+
+/*Mind*/
+
+
+
+#mind              {background-image:url(../images/feldenkrais.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#mind h1 {padding-top:2em; padding-bottom:2em;}
+#mind {border-bottom:#FFFFFF thin solid;}
+#mind img {border:#fff  thin solid;}
+
+/*move*/
+
+#move               {background-image:url(../images/gyro.jpg); background-size: cover; background-position: center center; min-height:800px;}
+#move h1 {padding-top:2em; padding-bottom:2em;}
+#move p   {padding-bottom:2em; }
+#move {border-bottom:#000000 thin solid;}
+#move img {border:#fff  thin solid;}
+
+
+/*final */
+
+#final      {background-image:url(../images/mac.jpg); background-size: cover; background-position: center center; min-height:500px;}
+#final h1, h2 {font-weight:300; color:#000;}
+
+
+#final h1 {padding-top:3em;}
+
+#final {border-bottom:#000 thin solid;}
+
+
+
+
+/*footer-main*/
+#footer-main {
+	background:#fff;
+	border-top:thin #FFF solid;
+	
+}
+
+#footer-main  {
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	
+	position:relative;
+	overflow:hidden;}
+
+#footer-main li{
+	text-align:center;
+}
+#footer-main ul li a{
+	display: inline-block;
+
+	text-decoration: none;
+	
+	padding:20px;}
+
+
+
+#footer-main img:hover{
+
+	background-image:url(../images/bagu.jpg); background-size: cover; background-position: center center;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	
+}
+
+
+
+ 
+#footer-main img {
+	width:4em;
+	height:4em;
+}
+
+#footer-main h3 {
+	font-size:20px;
+}
+
+
+
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	
+
+	
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#header-main h1 {font-size:50px; font-weight:700; color:#000;}
+        #header-main h2 {font-size:40px; font-weight:500; color:#000; padding-bottom:2em;}
+		#header-main        { background-image:url(../images/mac1.jpg); background-size: cover; background-position: center center;min-height:400px;}
+		h1, h2         { font-size:25px; color:#fff; text-transform: uppercase;}
+ p 			   {font-size:20px; color:#fff; font-weight:100;}
+ 
+ 
+#logoright{float:left;}
+#main-nav .column {
+	height:150px;
+	width:150px;}
+
+#main-nav li   {text-align:center;}
+
+
+
+#main-nav li a:hover{
+	color:#fff;
+	background-image:url(../images/bagu.jpg); background-size: cover; background-position: center center;
+}
+
+
+#main-nav{padding-bottom:4em;border-bottom:#000000 thin solid; }
+
+#main-nav img {width:50px; height:50px;
+ }
+ #main-nav h3 {font-size:20px;}
+		}
+
+	
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
