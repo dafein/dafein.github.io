@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Smart Patients &#187; stories and science</title>
+	<atom:link href="https://www.smartpatients.com/blog/tag/stories-and-science/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.smartpatients.com/blog</link>
+	<description></description>
+	<lastBuildDate>Thu, 15 Jan 2015 02:27:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1</generator>
+	<item>
+		<title>Stories and science</title>
+		<link>https://www.smartpatients.com/blog/stories-and-science/</link>
+		<comments>https://www.smartpatients.com/blog/stories-and-science/#comments</comments>
+		<pubDate>Tue, 21 Jan 2014 20:07:21 +0000</pubDate>
+		<dc:creator><![CDATA[Roni Zeiger]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[stories and science]]></category>
+
+		<guid isPermaLink="false">https://www.smartpatients.com/blog/?p=51</guid>
+		<description><![CDATA[We believe that magic happens at the intersection of stories and science. While big data is important, context is everything. It’s too easy to forget that what really matters is how data and science fit into real people’s lives. This point is driven home by a recent Esquire story about a colon cancer patient named [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p dir="ltr">We believe that magic happens at the intersection of stories and science. While big data is important, context is everything. It’s too easy to forget that what really matters is how data and science fit into real people’s lives.</p>
+<p dir="ltr"><span style="line-height: 1.5;">This point is driven home by a </span><a style="line-height: 1.5;" href="http://www.esquire.com/features/patient-zero-1213">recent Esquire story</a><span style="line-height: 1.5;"> about a colon cancer patient named Stephanie, a 36 year old Iraq war widow and mother of two. In part it’s a story about applying cutting edge science and computing power to the treatment of Stephanie’s colon cancer. Her genes &#8212; actually the genes of her colon cancer &#8212; were sequenced and compared to huge databases of known sequences of all kinds of cancers.</span></p>
+<p dir="ltr">The hope was to find mutations in Stephanie’s colon cancer that aren’t typical of colon cancer, but which have been seen in other cancers and are known to be vulnerable to drugs that aren’t usually used in colon cancer. This approach might uncover a drug that’s “targeted” to the molecular fingerprint of Stephanie’s cancer.</p>
+<p dir="ltr">While there were 73 mutations in her colon cancer, none pointed to a better treatment option for her. Now the story &#8212; really, the science &#8212; starts to sound like science fiction. Instead of looking at clinical trials which might offer more hope than the standard of care, her doctors at the Mount Sinai Center for Personalized Cancer Therapeutics built Stephanie a <a href="http://www.bio-itworld.com/2013/12/5/new-cancer-models-part-2-fly-ones-own.html">personalized fruit fly</a>.</p>
+<p dir="ltr">They inserted what they think are the most important mutations of Stephanie’s cancer into the genome of the fly. They let that fly reproduce, tested a bunch of approved drugs on it, and found one drug &#8212; that hasn’t been approved for colon cancer &#8212; killed the tumor in the fly.</p>
+<p dir="ltr">Rationally, we know why this matters. Stephanie and her daughters now have more hope. The significance became more clear to everyone when Stephanie visited the bioinformatics nerds who had been crunching her data. They were nearly brought to tears by meeting the person behind the data. Stephanie would never have met these doctors if not for her resolve, for the questions she continued to ask about why she had gotten what the internet seems to say is an “old man’s cancer”.</p>
+<p dir="ltr">Stephanie’s story is a juxtaposition of what she felt for the first time in her life while on chemo &#8212; the impulse to give up &#8212; and the words on her tattoo: “no pain lasts forever.” When she realized her colon cancer might be genetic, she was driven to learn how this might affect her daughters and what could possibly be done about it.</p>
+<p>We are inspired by stories like these and the way they push science even further.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.smartpatients.com/blog/stories-and-science/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Tango and cancer</title>
+		<link>https://www.smartpatients.com/blog/tango-and-cancer/</link>
+		<comments>https://www.smartpatients.com/blog/tango-and-cancer/#comments</comments>
+		<pubDate>Wed, 09 Oct 2013 05:06:24 +0000</pubDate>
+		<dc:creator><![CDATA[Roni Zeiger]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[stories and science]]></category>
+
+		<guid isPermaLink="false">https://www.smartpatients.com/blog/?p=29</guid>
+		<description><![CDATA[We are SO grateful for the over $5,000 in contributions we&#8217;ve had so far to the Real Cancer Stories project.  If you know others who might be interested in supporting, please let them know!  As promised, here is a beautiful video excerpt from our conversation with Bonnie, one of the members of our ovarian cancer [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>We are SO grateful for the over $5,000 in contributions we&#8217;ve had so far to the <a href="http://www.indiegogo.com/projects/real-cancer-stories">Real Cancer Stories</a> project.  If you know others who might be interested in supporting, please let them know!  As promised, here is a beautiful video excerpt from our conversation with Bonnie, one of the members of our ovarian cancer community:</p>
+<p><iframe src="//player.vimeo.com/video/75918939" height="365" width="780" allowfullscreen="" frameborder="0"></iframe></p>
+<p>The full video of Bonnie&#8217;s story will also include her thoughts about transitioning to hospice, about living the end of her life the way she wants, about her hopes and fears.</p>
+<p>We&#8217;ve also heard from many patients and caregivers who want to share their story, and we&#8217;re humbled.  We&#8217;ve started collecting stories and will be working with our partners at The Story Collider to prepare them for sharing.  If you&#8217;d like your story to be part of the Real Cancer Stories project, send us a note <a href="https://www.smartpatients.com/contact">here</a>. Thank you!<i><br />
+</i></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.smartpatients.com/blog/tango-and-cancer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Real cancer stories</title>
+		<link>https://www.smartpatients.com/blog/real-cancer-stories/</link>
+		<comments>https://www.smartpatients.com/blog/real-cancer-stories/#comments</comments>
+		<pubDate>Fri, 27 Sep 2013 04:26:42 +0000</pubDate>
+		<dc:creator><![CDATA[Roni Zeiger]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[stories and science]]></category>
+
+		<guid isPermaLink="false">https://www.smartpatients.com/blog/?p=20</guid>
+		<description><![CDATA[It&#8217;s fitting that our first blog post is about stories.  We&#8217;ve been talking for years about how much we need stories to provide context to all this big data we&#8217;re producing.  They&#8217;re also what makes us human, reminds us of what&#8217;s important. The stories in our community, from so many generous people who want others [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>It&#8217;s fitting that our first blog post is about stories.  We&#8217;ve been talking for years about how much we need stories to provide context to all this big data we&#8217;re producing.  They&#8217;re also what makes us human, reminds us of what&#8217;s important. The stories in our community, from so many generous people who want others to learn from their experience, have made us wonder how we can help these stories soar even further.</p>
+<p>It came into focus when we saw <a href="http://tedmed.com/talks/show?id=189377">this gripping story</a> about disease, life, pain, and love told on stage at TEDMED 2013, and met <a href="http://storycollider.org/">The Story Collider</a> team, an awesome non-profit that teaches people to share their stories about science on camera.  Before we knew it, our teams (Smart Patients and The Story Collider) had agreed to help share with the world 100 real, raw, inspiring, sometimes heart-breaking stories from cancer patients and caregivers.  Not just about disease, but about living with disease.  Not just about dying, but about living the end of one&#8217;s life purposefully.  These stories are all people learning to live and die, with respect, even though they have this ruthless disease.</p>
+<p>Perhaps the most important thing about real cancer stories is that they can provide immediate, tangible help to newly diagnosed cancer patients who suddenly feel so lost and alone.</p>
+<p>We asked Bonnie, one of the members of our ovarian cancer community, if she would be one of our first subjects.  She has been sharing with the community her journey living with ovarian cancer, and more recently her decision process to choose hospice.  Bonnie loved the idea of this project and wants more people to learn from her experience.  A few days later when I had the privilege of visiting with her in her home, I expected to talk about cancer and dying.  We mostly talked about tango.</p>
+<p><a href="https://www.smartpatients.com/blog/wp-content/uploads/2013/09/bonnie-dancing-with-red-shoes.png"><img class="alignnone size-full wp-image-21" alt="bonnie-dancing-with-red-shoes" src="https://www.smartpatients.com/blog/wp-content/uploads/2013/09/bonnie-dancing-with-red-shoes.png" width="1015" height="1053" /></a></p>
+<p><span style="line-height: 1.5;">That&#8217;s Bonnie showing me how to tango.  She got out of bed to show off her red tango shoes.  Her words, her generous spirit, her stories are a gift.  We are so grateful that hers will be the first video of the <a href="http://www.smartpatients.com/stories"><strong>Real Cancer Stories</strong></a> project.  We&#8217;re editing her video now and will share a piece of the video in the next couple of days.  In the meantime, please check out the project: <a href="http://www.smartpatients.com/stories">www.smartpatients.com/stories</a>.  You&#8217;ll recognize the artwork that&#8217;s based on the image above.  I&#8217;m sure it will be the cover of the DVD and the poster.</span></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.smartpatients.com/blog/real-cancer-stories/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+	</channel>
+</rss>

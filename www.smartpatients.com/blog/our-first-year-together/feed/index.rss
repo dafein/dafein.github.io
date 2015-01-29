@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Our first year together</title>
+	<atom:link href="https://www.smartpatients.com/blog/our-first-year-together/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.smartpatients.com/blog/our-first-year-together/</link>
+	<description></description>
+	<lastBuildDate>Thu, 15 Jan 2015 12:55:29 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1</generator>
+	<item>
+		<title>By: Ramin</title>
+		<link>https://www.smartpatients.com/blog/our-first-year-together/#comment-35</link>
+		<dc:creator><![CDATA[Ramin]]></dc:creator>
+		<pubDate>Fri, 14 Mar 2014 21:50:22 +0000</pubDate>
+		<guid isPermaLink="false">https://www.smartpatients.com/blog/?p=136#comment-35</guid>
+		<description><![CDATA[A belated congratulations on your 1 year anniversary!]]></description>
+		<content:encoded><![CDATA[<p>A belated congratulations on your 1 year anniversary!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

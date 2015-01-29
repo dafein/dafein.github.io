@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+                    Smart Patients
+        	</title>
+    
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.22.custom.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles-16.css" />
+<link rel="stylesheet" type="text/css" href="css/print-2.css" media="print" />    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600%7CHandlee' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="js/guide.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <link rel="icon"
+          type="image/png"
+          href="img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--[if IE 8]>
+        <link href="/css/ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+        </head>
+<body>
+    <script id="info_guide_template" type="text/x-handlebars-template"><div id="{{id}}" class="info-guide-div">{{message}}</div></script>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a href="index.html" title="Smart Patients - home"><img src="img/smart-patients-logo.png" id="main-logo" alt="Smart Patients Logo" width="254" height="50" /></a>
+            <div class="panel">
+                                    <div style='margin-top: 14px'> </div>
+                                <div class="links">
+                                            <a href="signin.html" title="Smart Patients Conversations" class='link'>Conversations</a>
+                                            <a href="signin.html" title="Sign in to the Smart Patients web site" class='link'>Sign in</a>
+                                    </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="row top-row top-border">
+                <div id="statusAlert"></div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                                    </div>
+            </div>
+            
+<div class="row">
+    <div class="divider home-page">
+        <div class="relative">
+    <div class="getStartedWithSearchText ">&nbsp;</div>
+    <form action="/trials/search" class="form-inline" id="indexForm" method="get" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_Token" value="5ad7d1bdac69ccfea3dbb95309a7e16bcbd2f2a7" id="Token604341970"/></div>    <div class="input text"><input name="q" id="q" class="bigInput" spellcheck="false" autocomplete="off" type="text"/></div><button id="searchBtn" class="btn btn-primary btn-large info-guide" data-info_guide="info-1" data-message="Enter a phrase such as 'non-small cell lung cancer' or 'sutent kidney cancer' to search for clinical trials." type="submit"><img height="20" width="20" src="img/search-icon.png"></button>
+    <input type="hidden" name="original_query" id="original_query"/>    <input type="hidden" name="reset_filters" id="reset_filters"/>        <div style="display:none;"><input type="hidden" name="_Token" value="c2c0bba7064c2238c519e71f5c27b987f3aa82ce%3Aoriginal_query%7Creset_filters" id="TokenFields1220428975"/><input type="hidden" name="_Token" value="" id="TokenUnlocked1444554268"/></div></form>    <div id="submit-status" class="status-error">&nbsp;</div>
+</div>    </div>
+</div>
+<div class="row top-border">
+    <div class="span12 network-image">
+        <div class="intro">
+            <div id="first-paragraph">
+                Get the information you need and find treatment you want
+            </div>
+            <div id="second-paragraph">
+                by searching for clinical trials at Smart
+            </div>
+            <div id="third-paragraph">Patients.</div>
+        </div>
+    </div>
+</div>            <div class="row footer-div top-border">
+    <div class="span12">
+        <div class="footer-content">
+            <div class="pull-right">
+                <a href='index.html' title='Smart Patients - Home'>Home</a> &nbsp;&nbsp;<span class="light-font not-printed">|</span>&nbsp;&nbsp;
+                <a href='about.html' title='About Smart Patients'>About</a> &nbsp;&nbsp;<span class="light-font not-printed">|</span>&nbsp;&nbsp;
+                <a href='faq.html' title='Frequently asked questions'>FAQ</a> &nbsp;&nbsp;<span class="light-font not-printed">|</span>&nbsp;&nbsp;
+                <a href='trials.html' title='Clinical trial search'>Trials</a> &nbsp;&nbsp;<span class="light-font not-printed">|</span>&nbsp;&nbsp;
+                <a href='terms.html' title='Terms of agreement'>Terms</a>  &nbsp;&nbsp;<span class="light-font not-printed">|</span>&nbsp;&nbsp;
+                <a href='privacy.html' title='Privacy policy'>Privacy</a>
+            </div>
+            <div class="pull-left">
+                &copy;2015 Smart Patients, Inc., all rights reserved
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script><script type="text/javascript" src="js/global.js"></script><script type="text/javascript" src="js/jquery.validate.min.js"></script><script type="text/javascript" src="js/handlebars-1.0.0.beta.6.js"></script>
+            <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-33347034-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        </body>
+</html>

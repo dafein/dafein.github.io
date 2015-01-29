@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Data are shadows of stories</title>
+	<atom:link href="https://www.smartpatients.com/blog/data-are-shadows-of-stories/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.smartpatients.com/blog/data-are-shadows-of-stories/</link>
+	<description></description>
+	<lastBuildDate>Thu, 15 Jan 2015 12:55:29 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1</generator>
+	<item>
+		<title>By: Lorena Macnaugtan</title>
+		<link>https://www.smartpatients.com/blog/data-are-shadows-of-stories/#comment-2729</link>
+		<dc:creator><![CDATA[Lorena Macnaugtan]]></dc:creator>
+		<pubDate>Thu, 15 Jan 2015 12:55:29 +0000</pubDate>
+		<guid isPermaLink="false">https://www.smartpatients.com/blog/?p=256#comment-2729</guid>
+		<description><![CDATA[I love the way you made the two points: data (source of objectivity) is important, but stories (source for context and variation) are too. Excellent drawing!]]></description>
+		<content:encoded><![CDATA[<p>I love the way you made the two points: data (source of objectivity) is important, but stories (source for context and variation) are too. Excellent drawing!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

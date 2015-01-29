@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /surveys/
+Disallow: /signin/
+Disallow: /trial_contact_emails/
+
+Sitemap: https://www.smartpatients.com/sitemap.xml

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Stories and science</title>
+	<atom:link href="https://www.smartpatients.com/blog/stories-and-science/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.smartpatients.com/blog/stories-and-science/</link>
+	<description></description>
+	<lastBuildDate>Thu, 15 Jan 2015 12:55:29 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1</generator>
+	<item>
+		<title>By: Roni Zeiger MD :: When you get to a fork in the road, stay there</title>
+		<link>https://www.smartpatients.com/blog/stories-and-science/#comment-65</link>
+		<dc:creator><![CDATA[Roni Zeiger MD :: When you get to a fork in the road, stay there]]></dc:creator>
+		<pubDate>Mon, 05 May 2014 00:35:51 +0000</pubDate>
+		<guid isPermaLink="false">https://www.smartpatients.com/blog/?p=51#comment-65</guid>
+		<description><![CDATA[[&#8230;] I worked at Google until I started seeing that so many of the complex questions people have about their health aren&#8217;t well answered in a document yet &#8212; but those same questions are often discussed in online communities, where a network of microexperts often provides useful feedback. So now, building Smart Patients, I sit at the intersection of stories and science. [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] I worked at Google until I started seeing that so many of the complex questions people have about their health aren&#8217;t well answered in a document yet &#8212; but those same questions are often discussed in online communities, where a network of microexperts often provides useful feedback. So now, building Smart Patients, I sit at the intersection of stories and science. [&#8230;]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

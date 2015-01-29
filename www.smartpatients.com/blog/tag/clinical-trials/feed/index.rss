@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Smart Patients &#187; clinical trials</title>
+	<atom:link href="https://www.smartpatients.com/blog/tag/clinical-trials/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.smartpatients.com/blog</link>
+	<description></description>
+	<lastBuildDate>Thu, 15 Jan 2015 02:27:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1</generator>
+	<item>
+		<title>Clinical trial of the future: more like a house call</title>
+		<link>https://www.smartpatients.com/blog/clinical-trial-of-the-future/</link>
+		<comments>https://www.smartpatients.com/blog/clinical-trial-of-the-future/#comments</comments>
+		<pubDate>Tue, 25 Feb 2014 16:39:51 +0000</pubDate>
+		<dc:creator><![CDATA[Roni Zeiger]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[clinical trials]]></category>
+
+		<guid isPermaLink="false">https://www.smartpatients.com/blog/?p=115</guid>
+		<description><![CDATA[Like concierge medicine has brought the house call back to the practice of medicine, so will the clinical trial of the not-too-distant future be much more convenient for patients. The stars (and the incentives) have started to align: patients want to travel less, especially if they’re sick sponsors want to spend less on expensive trial [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p dir="ltr">Like concierge medicine has brought the house call back to the practice of medicine, so will the clinical trial of the not-too-distant future be much more convenient for patients. The stars (and the incentives) have started to align:</p>
+<ul>
+<li>patients want to travel less, especially if they’re sick</li>
+<li>sponsors want to spend less on expensive trial sites, <a href="http://www.ciscrp.org/professional/facts_pat.html#5">half of which enroll one or zero patients</a> into a given study</li>
+<li>the era of molecular medicine and targeted therapies means more trials with smaller numbers of patients who are more geographically distributed</li>
+<li>trial-grade remote monitoring is starting to be done with <a href="http://www.mdsol.com/medidata-launches-novel-study-technology-enabled-patient-engagement-changing-health-outcomes-diabetes-community">convenient mHealth tools</a></li>
+<li><a href="http://portal.lillycoi.com/2013/05/23/telemedicine-in-the-clinical-trial-space/">telemedicine</a> can connect patients (at home or with their local doctor) to investigators<a href="https://www.smartpatients.com/blog/wp-content/uploads/2014/02/patient-centered.jpg"><img class="alignnone size-full wp-image-133" alt="patient-centered" src="https://www.smartpatients.com/blog/wp-content/uploads/2014/02/patient-centered.jpg" width="2968" height="2316" /></a><span style="line-height: 1.5;">Combine the distributed nature of future trials with </span><a style="line-height: 1.5;" href="http://journals.lww.com/oncology-times/blog/onlinefirst/pages/post.aspx?PostID=985">trials that are designed collaboratively by patients, physicians, and researchers</a><span style="line-height: 1.5;"> and we’ve got something that sounds like patient-centered and participatory research. How far and fast can we push science when patients are at the center of it?</span></li>
+</ul>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.smartpatients.com/blog/clinical-trial-of-the-future/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Participatory health care</title>
+		<link>https://www.smartpatients.com/blog/participatory-health-care/</link>
+		<comments>https://www.smartpatients.com/blog/participatory-health-care/#comments</comments>
+		<pubDate>Mon, 10 Feb 2014 16:55:10 +0000</pubDate>
+		<dc:creator><![CDATA[Roni Zeiger]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[clinical trials]]></category>
+		<category><![CDATA[the network effect]]></category>
+
+		<guid isPermaLink="false">https://www.smartpatients.com/blog/?p=103</guid>
+		<description><![CDATA[Patient centered care has arrived. To many of us this means that physicians should listen to patients in order to match the right subset of the physician’s expertise to the patient’s preferences. This is important, necessary, and insufficient. What we need is participatory health care, where the patient is an equal participant and collaborator in [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p dir="ltr">Patient centered care has arrived. To many of us this means that physicians should listen to patients in order to match the right subset of the physician’s expertise to the patient’s preferences. This is important, necessary, and insufficient.</p>
+<p dir="ltr">What we need is <em>participatory</em> health care, where the patient is an equal participant and collaborator in both health care delivery and scientific research.</p>
+<p dir="ltr"><a href="https://www.smartpatients.com/blog/wp-content/uploads/2014/02/hands-raised-participatory-health-care.png"><img class="alignnone size-full wp-image-104" alt="hands-raised-participatory-health-care" src="https://www.smartpatients.com/blog/wp-content/uploads/2014/02/hands-raised-participatory-health-care.png" width="920" height="566" /></a></p>
+<p dir="ltr">The information age has equipped everyone to become more expert in their disease than previously imaginable. Patients and caregivers can now ask questions and explore options not previously considered, and collaborate with their physicians who are hopefully also equal participants in their care. They can form <a href="http://ronizeiger.com/networks-of-microexperts/">networks of microexperts</a> to find options and breakthroughs faster than ever before, and no one is more motivated than the patient and family to research such options.</p>
+<p dir="ltr">How might me we achieve a more participatory health care system? Here are three specific suggestions.</p>
+<p dir="ltr">1. Patients should co-sign the doctor’s note. The physician (or other clinician) writes a note to document each patient visit. This includes the physician’s understanding of the patient’s story, a summary of the physical exam and other objective findings like test results, and the plan moving forward. A wonderful initiative called <a href="http://www.myopennotes.org/">OpenNotes</a>, spearheaded by the Robert Wood Johnson Foundation, has shown that giving patients easy access to doctor’s notes appears to help them understand their care better. Let’s go further by asking patients to co-sign the doctor’s note. What might happen if we ask the physician AND patient to attest that they understand and agree with the plan?</p>
+<p dir="ltr">2. Patients should co-sign prescriptions. We can imagine a patient, considering a prescription before signing it, asking more questions about it. Not as an afterthought when picking up the prescription at the pharmacy, but when co-owning the decision to write the prescription with the physician. Hypothesis: medication adherence will increase if patients co-sign their prescriptions.</p>
+<p dir="ltr">3. Patients should co-design clinical trials. As Susannah Fox suggests to researchers: <a href="http://susannahfox.com/2014/02/07/put-down-the-clipboard-and-listen/">put down the clipboard and listen</a>. Too often we think of patients as subjects. (Subject: noun &#8212; ˈsəbjəkt/ &#8212; a person or thing that is being discussed, described, or dealt with.) What might happen if we involve patients as co-designers of research studies? Perhaps participatory research is one way to improve today’s <a href="http://www.ciscrp.org/professional/facts_pat.html#7">6% participation rate in clinical trials</a>, even among those with severe chronic illness.</p>
+<p dir="ltr">Let’s invite everyone to participate and see what we can learn from each other.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.smartpatients.com/blog/participatory-health-care/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
