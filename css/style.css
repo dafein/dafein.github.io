@@ -103,9 +103,9 @@ p {
 
 /* #Links
 ================================================== */
-a { color: blue; text-decoration: none; }
+a { color:#010101; text-decoration: none; }
 a:visited, a:hover { 
-    background:blue;
+    background:#fff;
     text-decoration:none;
     color:#000000;
     -webkit-transition: all .5s ease-in-out;
@@ -118,6 +118,8 @@ a:visited, a:hover {
 ================================================== */
 ul, ol {
 	margin-bottom: .5em;
+	font-size: 2.25em; /* 36px / 16px = 2.25em */
+	line-height: 1.1em;
 }
 
 ul li ul, ul li ol, ol li ul, ol li ol {
@@ -131,10 +133,7 @@ li {
 
 /* #Images
 ================================================== */
-img.scale-with-grid {
-	max-width: 100%;
-	height: auto; 
-}
+
 
 a img {
 	border: none;
@@ -183,7 +182,7 @@ site-specific styles here.
 ===================================== */
 
 body {
-	background: #1A3174
+	background-image:url(../images/jjf.jpg); background-size: cover; background-position: center center;
 ;
 }
 
@@ -273,7 +272,8 @@ Description: Define screen-size breakpoints here.
 @media all and (max-width: 47.9999em) {
 	
 	body {
-		font-size: 87.5%; background:#459CC9;/* 14px */
+		font-size: 87.5%; background-image:url(../images/jjf.jpg); background-size: cover; background-position: center center;
+/* 14px */
 	}
 	
 	.container {
