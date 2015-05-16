@@ -1,52 +1,336 @@
 <!doctype html>
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<meta charset="UTF-8">
-<title>David Underwater</title>
 
-<!-- HTML5 -->
-<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+	<meta charset="utf-8">
+	<title>Demo</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-<!-- VIEWPORT FOR MOBILE -->
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!-- MAIN CSS -->
-<link href="css/style.css" rel="stylesheet" type="text/css">
+	
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+    <link rel="stylesheet" href="stylesheets/base.css">
+    
+    <!--google fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,400,100italic' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+  
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
 </head>
-
 <body>
 
-<div class="container">
+	<div class="container">
+  
+  	<!-- Start Header -->
+    <div class="row"><!-- clearfix is added to clear all the floats in this section -->
+      <div class="sixteen columns" id="nav-header">
+      <div class="type">
+  
+       
+        </div>
+        
+    </div>
+    <!-- End Header -->
+    
+    <!-- Start Section 1 -->
+    <div class="row">
+    	      <div class="one-third column">
+       <h1>InnerKnown</h1>
+        
+        <h3>Breath</h3>      
+        <p>Your at the mirror. Look at yourself.  What do you see?  Your physical form.  Your physique.  Let's say you want to change.  Stronger. Lose weight.  More muscle.  Improve posture. Whatever it is, your most often guided by your  </p>
 
-    
-    <section>
-    	<a href="dfein/singlepagetest_START/index.html"><img src="images/1.jpg" class="scale-with-grid" alt="Hero Image"></a>
-    	<img src="images/2.jpg" class="scale-with-grid" alt="Hero Image">
-    	<img src="images/3.jpg" class="scale-with-grid" alt="Hero Image">
-    	<img src="images/14.jpg" class="scale-with-grid" alt="Hero Image">
-    	<img src="images/5.jpg" class="scale-with-grid" alt="Hero Image">
-    	<img src="images/6.jpg" class="scale-with-grid" alt="Hero Image">
-    	<img src="images/7.jpg" class="scale-with-grid" alt="Hero Image">
-    	
-    	<a href="http://instagram.com/dgenki"><img src="images/9.jpg" class="scale-with-grid" alt="Hero Image"></a>
-    	<a href="https://www.youtube.com/user/TheDfein"><img src="images/10.jpg" class="scale-with-grid" alt="Hero Image"></a>
-    	<a href="http://www.ikelite.com/"><img src="images/11.jpg" class="scale-with-grid" alt="Hero Image"></a>
-     </section>
-    
+       </div>
+      <div class="one-third column">
+        <h4>This is Two Thirds 2/3</h4>
+        <ul>
+          <li>This is a one-third column, with a class of <strong>one-third</strong> and <strong>column</strong></li>
+          <li>The background color is <strong>pink</strong></li>
+          <li>This has no padding</li>
+        </ul>
+      </div>
+      <div class="one-third column">
+         <div class="column-padding"><!-- Add padding here. If you add padding to .one-third, the layout will break -->
+        <h4>This is One Third 3/3</h4>
+        <ul>
+          <li>This is a one-third column, with a class of <strong>one-third</strong> and <strong>column</strong></li>
+          <li>The background color is <strong>pink</strong></li>
+          <li>A div with a class of <strong>column-padding</strong> was added to add padding. This is created by the user and you set your own padding; Skeleton doesn't provide this</li>
+        </ul>
+        </div>
+      </div>
+		</div>
+    <!-- End Section 1 -->
    
-</div>
+    <!-- Start Section 2 -->
+    <div class="row">
+    <h3>Breath</h3>
+    <p>You can find yourself in your breath.  The quality of your breath is a direct indication of your state of mind and body</p>
+      <div class="eight columns"><!-- Alpha is not added here. Only add alpha if columns are embedded within each other. -->
+        <h4>This is One Half 1/2</h4>
+        <ul>
+          <li>This is a half column, with a class of <strong>eight</strong> and <strong>columns</strong></li>
+          <li>The background color is <strong>green</strong></li>
+          <li>This has no padding</li>
+        </ul>
+      </div>
+      <div class="eight columns"><!-- Omega is not added here. Only add omega if columns are embedded within each other. -->
+        <div class="column-padding">
+        	<h4>This is One Half 2/2</h4>
+        	<ul>
+            <li>This is a half column, with a class of <strong>eight</strong> and <strong>columns</strong></li>
+            <li>The background color is <strong>green</strong></li>
+            <li>A div with a class of <strong>column-padding</strong> was added to add padding</li>
+          </ul>
+        </div>
+      </div>
+		</div>
+    <!-- End Section 2 -->
+    
+    <!-- Start Section 2.1 -->
+    <div class="row">
+    <h3>Row 2.1</h3>
+    <p>Now it gets more complex. We duplicate section 5, but we also embed more columns within them.</p>
+      <div class="eight columns">
+        <h4>This is One Half 1/2</h4>
+        <ul>
+          <li>This is a half column, with a class of <strong>eight</strong> and <strong>columns</strong></li>
+          <li>The background color is <strong>green</strong></li>
+          <li>This has no padding</li>
+        </ul>
+        <div class="two columns alpha">
+        	<h5>This is two</h5>
+          <ul>
+            <li>This is a column, with a class of <strong>two</strong>, <strong>columns</strong>, and <strong>alpha</strong> to remove left margin</li>
+              <li>The background color is <strong>orange</strong></li>
+            	<li>This has no padding</li>
+        	</ul>
+        </div>
+        
+        <div class="six columns omega">
+        	<h5>This is six</h5>
+          <li>This is a column, with a class of <strong>six</strong>, <strong>columns</strong>, and <strong>omega</strong> to remove right margin</li>
+              <li>The background color is <strong>orange</strong></li>
+            	<li>This has no padding</li>
+        </div>
+      </div>
+      <div class="eight columns">
+        <div class="column-padding">
+        	<h4>This is One Half 2/2</h4>
+        	<ul>
+            <li>This is a half column, with a class of <strong>eight</strong> and <strong>columns</strong></li>
+            <li>The background color is <strong>green</strong></li>
+            <li>A div with a class of <strong>column-padding</strong> was added to add padding</li>
+          </ul>
+        </div>
+      </div>
+		</div>
+    <!-- End Section 2.1 -->
+    
+    <!-- Start Section 3 -->
+    <div class="row">
+    <h3>Row 3</h3>
+    <p>This is divided up into four equal columns.</p>
+    
+      <div class="four columns">
+        <h4>This is one-fourth 1/4</h4>
+          <ul>
+            <li>This is a one-fourth column, with a class of <strong>four</strong> and <strong>columns</strong></li>
+            <li>The background color is <strong>red</strong></li>
+          	<li>This has no padding</li>
+          </ul>
+      </div>
+      
+      <div class="four columns">
+        <h4>This is one-fourth 2/4</h4>
+          <ul>
+            <li>This is a one-fourth column, with a class of <strong>four</strong> and <strong>columns</strong></li>
+            <li>The background color is <strong>red</strong></li>
+          	<li>This has no padding</li>
+          </ul>
+      </div>
+      
+      <div class="four columns">
+      	<div class="column-padding">
+        <h4>This is one-fourth 3/4</h4>
+          <ul>
+            <li>This is a one-fourth column, with a class of <strong>four</strong> and <strong>columns</strong></li>
+            <li>The background color is <strong>red</strong></li>
+            <li>A div with a class of <strong>column-padding</strong> was added to add padding</li>
+          </ul>
+      	</div>
+      </div>
+      
+      <div class="four columns">
+        <h4>This is one-fourth 4/4</h4>
+          <ul>
+            <li>This is a one-fourth column, with a class of <strong>four</strong> and <strong>columns</strong></li>
+            <li>The background color is <strong>red</strong></li>
+          	<li>This has no padding</li>
+          </ul>
+      </div>
+
+		</div>
+    <!-- End Section 3 -->
+    
+     
+    <!-- Start Section 5 -->
+    <div class="row">
+    <h3>Row 5</h3>
+    <p>This section has two columns and is divided by thirds: two-thirds and one-third. You could also add eleven and five if you wanted to.</p>
+      <div class="two-thirds column">
+      	<div class="column-padding">
+          <h4>This is Two Thirds 2/3</h4>
+          <ul>
+            <li>This is a two-third column, with a class of <strong>two-thirds</strong> and <strong>column</strong></li>
+            <li>The background color is <strong>aqua</strong></li>
+            <li>A div with a class of <strong>column-padding</strong> was added to add padding</li>
+          </ul>
+        </div>
+      </div>
+      <div class="one-third column">
+        <h4>This is One Third 1/3</h4>
+        <ul>
+          <li>This is a one-third column, with a class of <strong>one-third</strong> and <strong>column</strong></li>
+          <li>The background color is <strong>pink</strong></li>
+          <li>This has no padding</li>
+        </ul>
+      </div>
+		</div>
+    <!-- End Section 5 -->
+    
+    
+    <!-- Start Section 5.1 -->
+    <div class="row">
+    <h3>Row 5.1</h3>
+    <p>Now it gets more complex. We duplicate section 5, but we also embed more columns within them.</p>
+    
+      <div class="two-thirds column">
+        <h4>This is Two Thirds 2/3</h4>
+          <ul>
+            <li>This is a two-third column, with a class of <strong>two-thirds</strong> and <strong>column</strong></li>
+            <li>The background color is <strong>aqua</strong></li>
+            <li>A div with a class of <strong>column-padding</strong> was added to add padding</li>
+          </ul>
+      </div>
+      
+      <div class="one-third column clearfix"><!-- Clearfix added to clear the two embedded floats -->
+         <div class="first-half">
+        	<h5>This is One half 1/2 - Embedded</h5>
+          <ul>
+          	<li>A custom class was made called <strong>first-half</strong>. You set your own width and float</li>
+            <li>The background color is <strong>purple</strong></li>
+            <li>This has no padding</li>
+          </ul>
+      	</div>
+        <div class="second-half">
+        	<div class="column-padding">
+            <h5>This is One half 2/2 - Embedded</h5>
+            <ul>
+              <li>A custom class was made called <strong>second-half</strong>. You set your own width and float</li>
+              <li>The background color is <strong>gray</strong></li>
+              <li>A div with a class of <strong>column-padding</strong> was added to add padding</li>
+            </ul>
+          </div>
+      	</div>
+      </div>
+      
+		</div>
+    <!-- End Section 5.1 -->
+    
+    <!-- Start Section 5.2 -->
+    <div class="row">
+    <h3>Row 5.2</h3>
+    <p>Let's embed more columns. We keep the two-thirds section but embed smaller sections. This is where alpha comes in to remove left margin.</p>
+    
+      <div class="two-thirds column">
+        <h4>This is Two Thirds 2/3</h4>
+        
+        	<div class="three columns alpha">
+          <h5>This is a column</h5>
+            <ul>
+              <li>This is a column, with a class of <strong>three</strong>, <strong>columns</strong>, and <strong>alpha</strong> to remove left margin</li>
+              <li>The background color is <strong>orange</strong></li>
+            	<li>This has no padding</li>
+            </ul>
+          </div>
+          
+          <h5>This is text with no div or column</h5>
+          <ul>
+            <li>This has no column</li>
+          </ul>
+
+      </div>
+      
+      <div class="one-third column clearfix"><!-- Clearfix added to clear the two embedded floats -->
+         <div class="first-half">
+        	<h5>This is One half 1/2 - Embedded</h5>
+          <ul>
+          	<li>A custom class was made called <strong>first-half</strong>. You set your own width and float</li>
+            <li>The background color is <strong>purple</strong></li>
+            <li>This has no padding</li>
+          </ul>
+      	</div>
+        <div class="second-half">
+        	<div class="column-padding">
+            <h5>This is One half 2/2 - Embedded</h5>
+            <ul>
+              <li>A custom class was made called <strong>second-half</strong>. You set your own width and float</li>
+              <li>The background color is <strong>gray</strong></li>
+              <li>A div with a class of <strong>column-padding</strong> was added to add padding</li>
+            </ul>
+          </div>
+      	</div>
+      </div>
+      
+		</div>
+    <!-- End Section 5.2 -->
+    
+    <!-- Start Offset -->
+    <div class="row">
+    <div class="container">
+    	<div class="columns twelve offset-by-two" id="offset">
+        	<p>I need this centered better because it looks ugly. In odio ante, cursus vitae pulvinar sit amet, interdum vel lectus. Vivamus adipiscing adipiscing magna sit amet mollis. Suspendisse aliquam interdum interdum. Nunc sit amet varius nunc,</p>
+        </div>  
+    </div>
+    </div>
+
+    <!-- Start Footer -->
+    <div class="row"><!-- clearfix is added to clear all the floats in this section -->
+    <h3>Footer</h3>
+        <p>My Footer is only thirteen columns wide</p>
+      	<div class="sixteen columns" id="footer">
+       	<h4>This is thirteen</h4>
+        <ul>
+          <li>This is thirteen columns, with a class of <strong>thirteen</strong> and <strong>columns</strong></li>
+          <li>The background color is <strong>red</strong></li>
+          <li>This has no padding</li>
+        </ul>
+      </div>
+      <div class="three columns">
+      	<h4>Logo</h4>
+        <li>This is three columns, with a class of <strong>three</strong> and <strong>columns</strong></li>
+        <li>The background color is <strong>orange</strong></li>
+        <li>This has no padding</li>
+      </div>
+    </div>
+    <!-- End Footer -->
+    
+	</div>
+  <!-- End Container -->
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
